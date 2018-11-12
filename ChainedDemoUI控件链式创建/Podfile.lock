@@ -1,0 +1,16 @@
+PODS:
+  - ZFCChainedCreater (1.0.2)
+
+DEPENDENCIES:
+  - ZFCChainedCreater (~> 1.0.2)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ZFCChainedCreater
+
+SPEC CHECKSUMS:
+  ZFCChainedCreater: ccdd3ae4a3569d2ec1eff7cbffb7d4e6bc82a3ca
+
+PODFILE CHECKSUM: ffd353cee64a504247d59b8932edffef7cb71cba
+
+COCOAPODS: 1.6.0.beta.1

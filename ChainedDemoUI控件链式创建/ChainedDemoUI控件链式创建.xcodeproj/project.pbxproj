@@ -1,0 +1,1675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		043D1F1B21996C0C00AB925D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D1F1A21996C0C00AB925D /* AppDelegate.m */; };
+		043D1F1E21996C0C00AB925D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D1F1D21996C0C00AB925D /* ViewController.m */; };
+		043D1F2121996C0C00AB925D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043D1F1F21996C0C00AB925D /* Main.storyboard */; };
+		043D1F2321996C0C00AB925D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043D1F2221996C0C00AB925D /* Assets.xcassets */; };
+		043D1F2621996C0C00AB925D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043D1F2421996C0C00AB925D /* LaunchScreen.storyboard */; };
+		043D1F2921996C0C00AB925D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D1F2821996C0C00AB925D /* main.m */; };
+		043D1F3321996C0C00AB925D /* ChainedDemoUI______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D1F3221996C0C00AB925D /* ChainedDemoUI______Tests.m */; };
+		043D1F3E21996C0C00AB925D /* ChainedDemoUI______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D1F3D21996C0C00AB925D /* ChainedDemoUI______UITests.m */; };
+		043D1F5321996C4E00AB925D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D1F5221996C4E00AB925D /* AppDelegate.m */; };
+		043D1F5621996C4E00AB925D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D1F5521996C4E00AB925D /* ViewController.m */; };
+		043D1F5921996C4E00AB925D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043D1F5721996C4E00AB925D /* Main.storyboard */; };
+		043D1F5B21996C4F00AB925D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043D1F5A21996C4F00AB925D /* Assets.xcassets */; };
+		043D1F5E21996C4F00AB925D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043D1F5C21996C4F00AB925D /* LaunchScreen.storyboard */; };
+		043D1F6121996C4F00AB925D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D1F6021996C4F00AB925D /* main.m */; };
+		043D1F6B21996C4F00AB925D /* ChainedDemo____TableView_CollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D1F6A21996C4F00AB925D /* ChainedDemo____TableView_CollectionViewTests.m */; };
+		043D1F7621996C4F00AB925D /* ChainedDemo____TableView_CollectionViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D1F7521996C4F00AB925D /* ChainedDemo____TableView_CollectionViewUITests.m */; };
+		043D1F8921996C5D00AB925D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D1F8821996C5D00AB925D /* AppDelegate.m */; };
+		043D1F8C21996C5D00AB925D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D1F8B21996C5D00AB925D /* ViewController.m */; };
+		043D1F8F21996C5D00AB925D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043D1F8D21996C5D00AB925D /* Main.storyboard */; };
+		043D1F9121996C5E00AB925D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043D1F9021996C5E00AB925D /* Assets.xcassets */; };
+		043D1F9421996C5E00AB925D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043D1F9221996C5E00AB925D /* LaunchScreen.storyboard */; };
+		043D1F9721996C5E00AB925D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D1F9621996C5E00AB925D /* main.m */; };
+		043D1FA121996C5E00AB925D /* ChainedDemo__tableView___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D1FA021996C5E00AB925D /* ChainedDemo__tableView___Tests.m */; };
+		043D1FAC21996C5E00AB925D /* ChainedDemo__tableView___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D1FAB21996C5E00AB925D /* ChainedDemo__tableView___UITests.m */; };
+		043D1FC421996C7800AB925D /* TestChainedCreate_CollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D1FB921996C7700AB925D /* TestChainedCreate_CollectionView.m */; };
+		043D1FC521996C7800AB925D /* TestChainedCreate_OtherView.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D1FBB21996C7700AB925D /* TestChainedCreate_OtherView.m */; };
+		043D1FC621996C7800AB925D /* TestChainedCreate_TableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D1FBD21996C7700AB925D /* TestChainedCreate_TableView.m */; };
+		043D1FC721996C7800AB925D /* TestCollectionViewHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D1FC021996C7800AB925D /* TestCollectionViewHeaderFooterView.m */; };
+		043D1FC821996C7800AB925D /* TestTableViewHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D1FC221996C7800AB925D /* TestTableViewHeaderFooterView.m */; };
+		043D1FC921996C7800AB925D /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 043D1FC321996C7800AB925D /* test.jpg */; };
+		043D1FE221996C9C00AB925D /* ZFC_TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D1FCC21996C9C00AB925D /* ZFC_TableViewCell.m */; };
+		043D1FE321996C9C00AB925D /* ZFC_TableViewCell_XIB.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D1FCE21996C9C00AB925D /* ZFC_TableViewCell_XIB.m */; };
+		043D1FE421996C9C00AB925D /* ZFC_TableViewCell_XIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043D1FCF21996C9C00AB925D /* ZFC_TableViewCell_XIB.xib */; };
+		043D1FE521996C9C00AB925D /* ZFC_TableViewHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D1FD121996C9C00AB925D /* ZFC_TableViewHeaderFooterView.m */; };
+		043D1FE621996C9C00AB925D /* ZFC_TableViewHeaderFooterView_XIB.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D1FD321996C9C00AB925D /* ZFC_TableViewHeaderFooterView_XIB.m */; };
+		043D1FE721996C9C00AB925D /* ZFC_TableViewHeaderFooterView_XIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043D1FD421996C9C00AB925D /* ZFC_TableViewHeaderFooterView_XIB.xib */; };
+		043D1FE821996C9C00AB925D /* ZFC_CollectionHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D1FD821996C9C00AB925D /* ZFC_CollectionHeaderFooterView.m */; };
+		043D1FE921996C9C00AB925D /* ZFC_CollectionHeaderFooterView_XIB.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D1FDA21996C9C00AB925D /* ZFC_CollectionHeaderFooterView_XIB.m */; };
+		043D1FEA21996C9C00AB925D /* ZFC_CollectionHeaderFooterView_XIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043D1FDB21996C9C00AB925D /* ZFC_CollectionHeaderFooterView_XIB.xib */; };
+		043D1FEB21996C9C00AB925D /* ZFC_CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D1FDD21996C9C00AB925D /* ZFC_CollectionViewCell.m */; };
+		043D1FEC21996C9C00AB925D /* ZFC_CollectionViewCell_XIB.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D1FDF21996C9C00AB925D /* ZFC_CollectionViewCell_XIB.m */; };
+		043D1FED21996C9C00AB925D /* ZFC_CollectionViewCell_XIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043D1FE021996C9C00AB925D /* ZFC_CollectionViewCell_XIB.xib */; };
+		043D1FEE21996C9C00AB925D /* ZFC_TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D1FE121996C9C00AB925D /* ZFC_TestViewController.m */; };
+		043D200B21996CBB00AB925D /* ZFCTestRowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D1FF121996CBB00AB925D /* ZFCTestRowModel.m */; };
+		043D200C21996CBB00AB925D /* ZFCTestSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D1FF321996CBB00AB925D /* ZFCTestSectionModel.m */; };
+		043D200D21996CBB00AB925D /* ZFCSecondTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D1FF721996CBB00AB925D /* ZFCSecondTableViewCell.m */; };
+		043D200E21996CBB00AB925D /* ZFCSecondTableViewCell_XIB.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D1FF921996CBB00AB925D /* ZFCSecondTableViewCell_XIB.m */; };
+		043D200F21996CBB00AB925D /* ZFCSecondTableViewCell_XIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043D1FFA21996CBB00AB925D /* ZFCSecondTableViewCell_XIB.xib */; };
+		043D201021996CBB00AB925D /* ZFCTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D1FFC21996CBB00AB925D /* ZFCTableViewCell.m */; };
+		043D201121996CBB00AB925D /* ZFCTableViewCell_XIB.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D1FFE21996CBB00AB925D /* ZFCTableViewCell_XIB.m */; };
+		043D201221996CBB00AB925D /* ZFCTableViewCell_XIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043D1FFF21996CBB00AB925D /* ZFCTableViewCell_XIB.xib */; };
+		043D201321996CBB00AB925D /* ZFCTableViewHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D200121996CBB00AB925D /* ZFCTableViewHeaderFooterView.m */; };
+		043D201421996CBB00AB925D /* ZFCTableViewHeaderFooterView_XIB.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D200321996CBB00AB925D /* ZFCTableViewHeaderFooterView_XIB.m */; };
+		043D201521996CBB00AB925D /* ZFCTableViewHeaderFooterView_XIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043D200421996CBB00AB925D /* ZFCTableViewHeaderFooterView_XIB.xib */; };
+		043D201621996CBB00AB925D /* ZFCThirdTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D200621996CBB00AB925D /* ZFCThirdTableViewCell.m */; };
+		043D201721996CBB00AB925D /* ZFCThirdTableViewCell_XIB.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D200821996CBB00AB925D /* ZFCThirdTableViewCell_XIB.m */; };
+		043D201821996CBB00AB925D /* ZFCThirdTableViewCell_XIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043D200921996CBB00AB925D /* ZFCThirdTableViewCell_XIB.xib */; };
+		043D201921996CBB00AB925D /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D200A21996CBB00AB925D /* TestViewController.m */; };
+		23ED262870EE3DD508F8A17C /* libPods-ChainedDemo链式调用TableView和CollectionView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D12BA59C5C43015A138581C3 /* libPods-ChainedDemo链式调用TableView和CollectionView.a */; };
+		34052F19E3368620A858DA75 /* libPods-ChainedDemoUI控件链式创建.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A477E7B5AB9FEBA6277CF6B3 /* libPods-ChainedDemoUI控件链式创建.a */; };
+		B2633368959C2295EAF04E9D /* libPods-ChainedDemo复杂tableView的抽离.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 925F464E2608FC1FBD1F3FA0 /* libPods-ChainedDemo复杂tableView的抽离.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		043D1F2F21996C0C00AB925D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 043D1F0E21996C0C00AB925D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 043D1F1521996C0C00AB925D;
+			remoteInfo = "ChainedDemoUI控件链式创建";
+		};
+		043D1F3A21996C0C00AB925D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 043D1F0E21996C0C00AB925D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 043D1F1521996C0C00AB925D;
+			remoteInfo = "ChainedDemoUI控件链式创建";
+		};
+		043D1F6721996C4F00AB925D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 043D1F0E21996C0C00AB925D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 043D1F4E21996C4E00AB925D;
+			remoteInfo = "ChainedDemo链式调用TableView和CollectionView";
+		};
+		043D1F7221996C4F00AB925D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 043D1F0E21996C0C00AB925D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 043D1F4E21996C4E00AB925D;
+			remoteInfo = "ChainedDemo链式调用TableView和CollectionView";
+		};
+		043D1F9D21996C5E00AB925D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 043D1F0E21996C0C00AB925D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 043D1F8421996C5D00AB925D;
+			remoteInfo = "ChainedDemo复杂tableView的抽离";
+		};
+		043D1FA821996C5E00AB925D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 043D1F0E21996C0C00AB925D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 043D1F8421996C5D00AB925D;
+			remoteInfo = "ChainedDemo复杂tableView的抽离";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		043D1F1621996C0C00AB925D /* ChainedDemoUI控件链式创建.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChainedDemoUI控件链式创建.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		043D1F1921996C0C00AB925D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		043D1F1A21996C0C00AB925D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		043D1F1C21996C0C00AB925D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		043D1F1D21996C0C00AB925D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		043D1F2021996C0C00AB925D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		043D1F2221996C0C00AB925D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		043D1F2521996C0C00AB925D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		043D1F2721996C0C00AB925D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043D1F2821996C0C00AB925D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		043D1F2E21996C0C00AB925D /* ChainedDemoUI控件链式创建Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ChainedDemoUI控件链式创建Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		043D1F3221996C0C00AB925D /* ChainedDemoUI______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChainedDemoUI______Tests.m; sourceTree = "<group>"; };
+		043D1F3421996C0C00AB925D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043D1F3921996C0C00AB925D /* ChainedDemoUI控件链式创建UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ChainedDemoUI控件链式创建UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		043D1F3D21996C0C00AB925D /* ChainedDemoUI______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChainedDemoUI______UITests.m; sourceTree = "<group>"; };
+		043D1F3F21996C0C00AB925D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043D1F4F21996C4E00AB925D /* ChainedDemo链式调用TableView和CollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChainedDemo链式调用TableView和CollectionView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		043D1F5121996C4E00AB925D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		043D1F5221996C4E00AB925D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		043D1F5421996C4E00AB925D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		043D1F5521996C4E00AB925D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		043D1F5821996C4E00AB925D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		043D1F5A21996C4F00AB925D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		043D1F5D21996C4F00AB925D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		043D1F5F21996C4F00AB925D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043D1F6021996C4F00AB925D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		043D1F6621996C4F00AB925D /* ChainedDemo链式调用TableView和CollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ChainedDemo链式调用TableView和CollectionViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		043D1F6A21996C4F00AB925D /* ChainedDemo____TableView_CollectionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChainedDemo____TableView_CollectionViewTests.m; sourceTree = "<group>"; };
+		043D1F6C21996C4F00AB925D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043D1F7121996C4F00AB925D /* ChainedDemo链式调用TableView和CollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ChainedDemo链式调用TableView和CollectionViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		043D1F7521996C4F00AB925D /* ChainedDemo____TableView_CollectionViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChainedDemo____TableView_CollectionViewUITests.m; sourceTree = "<group>"; };
+		043D1F7721996C4F00AB925D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043D1F8521996C5D00AB925D /* ChainedDemo复杂tableView的抽离.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChainedDemo复杂tableView的抽离.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		043D1F8721996C5D00AB925D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		043D1F8821996C5D00AB925D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		043D1F8A21996C5D00AB925D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		043D1F8B21996C5D00AB925D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		043D1F8E21996C5D00AB925D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		043D1F9021996C5E00AB925D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		043D1F9321996C5E00AB925D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		043D1F9521996C5E00AB925D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043D1F9621996C5E00AB925D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		043D1F9C21996C5E00AB925D /* ChainedDemo复杂tableView的抽离Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ChainedDemo复杂tableView的抽离Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		043D1FA021996C5E00AB925D /* ChainedDemo__tableView___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChainedDemo__tableView___Tests.m; sourceTree = "<group>"; };
+		043D1FA221996C5E00AB925D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043D1FA721996C5E00AB925D /* ChainedDemo复杂tableView的抽离UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ChainedDemo复杂tableView的抽离UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		043D1FAB21996C5E00AB925D /* ChainedDemo__tableView___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChainedDemo__tableView___UITests.m; sourceTree = "<group>"; };
+		043D1FAD21996C5E00AB925D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043D1FB821996C7700AB925D /* TestChainedCreate_CollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestChainedCreate_CollectionView.h; sourceTree = "<group>"; };
+		043D1FB921996C7700AB925D /* TestChainedCreate_CollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestChainedCreate_CollectionView.m; sourceTree = "<group>"; };
+		043D1FBA21996C7700AB925D /* TestChainedCreate_OtherView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestChainedCreate_OtherView.h; sourceTree = "<group>"; };
+		043D1FBB21996C7700AB925D /* TestChainedCreate_OtherView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestChainedCreate_OtherView.m; sourceTree = "<group>"; };
+		043D1FBC21996C7700AB925D /* TestChainedCreate_TableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestChainedCreate_TableView.h; sourceTree = "<group>"; };
+		043D1FBD21996C7700AB925D /* TestChainedCreate_TableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestChainedCreate_TableView.m; sourceTree = "<group>"; };
+		043D1FBF21996C7800AB925D /* TestCollectionViewHeaderFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCollectionViewHeaderFooterView.h; sourceTree = "<group>"; };
+		043D1FC021996C7800AB925D /* TestCollectionViewHeaderFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCollectionViewHeaderFooterView.m; sourceTree = "<group>"; };
+		043D1FC121996C7800AB925D /* TestTableViewHeaderFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewHeaderFooterView.h; sourceTree = "<group>"; };
+		043D1FC221996C7800AB925D /* TestTableViewHeaderFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewHeaderFooterView.m; sourceTree = "<group>"; };
+		043D1FC321996C7800AB925D /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
+		043D1FCB21996C9C00AB925D /* ZFC_TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFC_TableViewCell.h; sourceTree = "<group>"; };
+		043D1FCC21996C9C00AB925D /* ZFC_TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFC_TableViewCell.m; sourceTree = "<group>"; };
+		043D1FCD21996C9C00AB925D /* ZFC_TableViewCell_XIB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFC_TableViewCell_XIB.h; sourceTree = "<group>"; };
+		043D1FCE21996C9C00AB925D /* ZFC_TableViewCell_XIB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFC_TableViewCell_XIB.m; sourceTree = "<group>"; };
+		043D1FCF21996C9C00AB925D /* ZFC_TableViewCell_XIB.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZFC_TableViewCell_XIB.xib; sourceTree = "<group>"; };
+		043D1FD021996C9C00AB925D /* ZFC_TableViewHeaderFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFC_TableViewHeaderFooterView.h; sourceTree = "<group>"; };
+		043D1FD121996C9C00AB925D /* ZFC_TableViewHeaderFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFC_TableViewHeaderFooterView.m; sourceTree = "<group>"; };
+		043D1FD221996C9C00AB925D /* ZFC_TableViewHeaderFooterView_XIB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFC_TableViewHeaderFooterView_XIB.h; sourceTree = "<group>"; };
+		043D1FD321996C9C00AB925D /* ZFC_TableViewHeaderFooterView_XIB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFC_TableViewHeaderFooterView_XIB.m; sourceTree = "<group>"; };
+		043D1FD421996C9C00AB925D /* ZFC_TableViewHeaderFooterView_XIB.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZFC_TableViewHeaderFooterView_XIB.xib; sourceTree = "<group>"; };
+		043D1FD521996C9C00AB925D /* ZFC_TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZFC_TestViewController.h; path = "../../未命名文件夹/ChainedDemo常见UI控件链式创建/ChainedDemo链式调用TableView和CollectionView/ZFC_TestViewController.h"; sourceTree = "<group>"; };
+		043D1FD721996C9C00AB925D /* ZFC_CollectionHeaderFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFC_CollectionHeaderFooterView.h; sourceTree = "<group>"; };
+		043D1FD821996C9C00AB925D /* ZFC_CollectionHeaderFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFC_CollectionHeaderFooterView.m; sourceTree = "<group>"; };
+		043D1FD921996C9C00AB925D /* ZFC_CollectionHeaderFooterView_XIB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFC_CollectionHeaderFooterView_XIB.h; sourceTree = "<group>"; };
+		043D1FDA21996C9C00AB925D /* ZFC_CollectionHeaderFooterView_XIB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFC_CollectionHeaderFooterView_XIB.m; sourceTree = "<group>"; };
+		043D1FDB21996C9C00AB925D /* ZFC_CollectionHeaderFooterView_XIB.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZFC_CollectionHeaderFooterView_XIB.xib; sourceTree = "<group>"; };
+		043D1FDC21996C9C00AB925D /* ZFC_CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFC_CollectionViewCell.h; sourceTree = "<group>"; };
+		043D1FDD21996C9C00AB925D /* ZFC_CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFC_CollectionViewCell.m; sourceTree = "<group>"; };
+		043D1FDE21996C9C00AB925D /* ZFC_CollectionViewCell_XIB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFC_CollectionViewCell_XIB.h; sourceTree = "<group>"; };
+		043D1FDF21996C9C00AB925D /* ZFC_CollectionViewCell_XIB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFC_CollectionViewCell_XIB.m; sourceTree = "<group>"; };
+		043D1FE021996C9C00AB925D /* ZFC_CollectionViewCell_XIB.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZFC_CollectionViewCell_XIB.xib; sourceTree = "<group>"; };
+		043D1FE121996C9C00AB925D /* ZFC_TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZFC_TestViewController.m; path = "../../未命名文件夹/ChainedDemo常见UI控件链式创建/ChainedDemo链式调用TableView和CollectionView/ZFC_TestViewController.m"; sourceTree = "<group>"; };
+		043D1FF021996CBB00AB925D /* ZFCTestRowModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFCTestRowModel.h; sourceTree = "<group>"; };
+		043D1FF121996CBB00AB925D /* ZFCTestRowModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFCTestRowModel.m; sourceTree = "<group>"; };
+		043D1FF221996CBB00AB925D /* ZFCTestSectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFCTestSectionModel.h; sourceTree = "<group>"; };
+		043D1FF321996CBB00AB925D /* ZFCTestSectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFCTestSectionModel.m; sourceTree = "<group>"; };
+		043D1FF421996CBB00AB925D /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		043D1FF621996CBB00AB925D /* ZFCSecondTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFCSecondTableViewCell.h; sourceTree = "<group>"; };
+		043D1FF721996CBB00AB925D /* ZFCSecondTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFCSecondTableViewCell.m; sourceTree = "<group>"; };
+		043D1FF821996CBB00AB925D /* ZFCSecondTableViewCell_XIB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFCSecondTableViewCell_XIB.h; sourceTree = "<group>"; };
+		043D1FF921996CBB00AB925D /* ZFCSecondTableViewCell_XIB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFCSecondTableViewCell_XIB.m; sourceTree = "<group>"; };
+		043D1FFA21996CBB00AB925D /* ZFCSecondTableViewCell_XIB.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZFCSecondTableViewCell_XIB.xib; sourceTree = "<group>"; };
+		043D1FFB21996CBB00AB925D /* ZFCTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFCTableViewCell.h; sourceTree = "<group>"; };
+		043D1FFC21996CBB00AB925D /* ZFCTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFCTableViewCell.m; sourceTree = "<group>"; };
+		043D1FFD21996CBB00AB925D /* ZFCTableViewCell_XIB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFCTableViewCell_XIB.h; sourceTree = "<group>"; };
+		043D1FFE21996CBB00AB925D /* ZFCTableViewCell_XIB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFCTableViewCell_XIB.m; sourceTree = "<group>"; };
+		043D1FFF21996CBB00AB925D /* ZFCTableViewCell_XIB.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZFCTableViewCell_XIB.xib; sourceTree = "<group>"; };
+		043D200021996CBB00AB925D /* ZFCTableViewHeaderFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFCTableViewHeaderFooterView.h; sourceTree = "<group>"; };
+		043D200121996CBB00AB925D /* ZFCTableViewHeaderFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFCTableViewHeaderFooterView.m; sourceTree = "<group>"; };
+		043D200221996CBB00AB925D /* ZFCTableViewHeaderFooterView_XIB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFCTableViewHeaderFooterView_XIB.h; sourceTree = "<group>"; };
+		043D200321996CBB00AB925D /* ZFCTableViewHeaderFooterView_XIB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFCTableViewHeaderFooterView_XIB.m; sourceTree = "<group>"; };
+		043D200421996CBB00AB925D /* ZFCTableViewHeaderFooterView_XIB.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZFCTableViewHeaderFooterView_XIB.xib; sourceTree = "<group>"; };
+		043D200521996CBB00AB925D /* ZFCThirdTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFCThirdTableViewCell.h; sourceTree = "<group>"; };
+		043D200621996CBB00AB925D /* ZFCThirdTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFCThirdTableViewCell.m; sourceTree = "<group>"; };
+		043D200721996CBB00AB925D /* ZFCThirdTableViewCell_XIB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFCThirdTableViewCell_XIB.h; sourceTree = "<group>"; };
+		043D200821996CBB00AB925D /* ZFCThirdTableViewCell_XIB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFCThirdTableViewCell_XIB.m; sourceTree = "<group>"; };
+		043D200921996CBB00AB925D /* ZFCThirdTableViewCell_XIB.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZFCThirdTableViewCell_XIB.xib; sourceTree = "<group>"; };
+		043D200A21996CBB00AB925D /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		0CEAE11861491598D44FADF4 /* Pods-ChainedDemo复杂tableView的抽离.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChainedDemo复杂tableView的抽离.release.xcconfig"; path = "Target Support Files/Pods-ChainedDemo复杂tableView的抽离/Pods-ChainedDemo复杂tableView的抽离.release.xcconfig"; sourceTree = "<group>"; };
+		780959AE5519E51A6A4EC6B4 /* Pods-ChainedDemo链式调用TableView和CollectionView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChainedDemo链式调用TableView和CollectionView.debug.xcconfig"; path = "Target Support Files/Pods-ChainedDemo链式调用TableView和CollectionView/Pods-ChainedDemo链式调用TableView和CollectionView.debug.xcconfig"; sourceTree = "<group>"; };
+		788935BDAE1A01EF35DC99BB /* Pods-ChainedDemo链式调用TableView和CollectionView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChainedDemo链式调用TableView和CollectionView.release.xcconfig"; path = "Target Support Files/Pods-ChainedDemo链式调用TableView和CollectionView/Pods-ChainedDemo链式调用TableView和CollectionView.release.xcconfig"; sourceTree = "<group>"; };
+		925F464E2608FC1FBD1F3FA0 /* libPods-ChainedDemo复杂tableView的抽离.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChainedDemo复杂tableView的抽离.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A477E7B5AB9FEBA6277CF6B3 /* libPods-ChainedDemoUI控件链式创建.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChainedDemoUI控件链式创建.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B343AB4B01D6C550DEB04451 /* Pods-ChainedDemoUI控件链式创建.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChainedDemoUI控件链式创建.debug.xcconfig"; path = "Target Support Files/Pods-ChainedDemoUI控件链式创建/Pods-ChainedDemoUI控件链式创建.debug.xcconfig"; sourceTree = "<group>"; };
+		C91891C96D94F3F50F26593F /* Pods-ChainedDemo复杂tableView的抽离.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChainedDemo复杂tableView的抽离.debug.xcconfig"; path = "Target Support Files/Pods-ChainedDemo复杂tableView的抽离/Pods-ChainedDemo复杂tableView的抽离.debug.xcconfig"; sourceTree = "<group>"; };
+		D12BA59C5C43015A138581C3 /* libPods-ChainedDemo链式调用TableView和CollectionView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChainedDemo链式调用TableView和CollectionView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB888EA1001C46BBB95E923F /* Pods-ChainedDemoUI控件链式创建.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChainedDemoUI控件链式创建.release.xcconfig"; path = "Target Support Files/Pods-ChainedDemoUI控件链式创建/Pods-ChainedDemoUI控件链式创建.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		043D1F1321996C0C00AB925D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34052F19E3368620A858DA75 /* libPods-ChainedDemoUI控件链式创建.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043D1F2B21996C0C00AB925D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043D1F3621996C0C00AB925D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043D1F4C21996C4E00AB925D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23ED262870EE3DD508F8A17C /* libPods-ChainedDemo链式调用TableView和CollectionView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043D1F6321996C4F00AB925D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043D1F6E21996C4F00AB925D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043D1F8221996C5D00AB925D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2633368959C2295EAF04E9D /* libPods-ChainedDemo复杂tableView的抽离.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043D1F9921996C5E00AB925D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043D1FA421996C5E00AB925D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		043D1F0D21996C0C00AB925D = {
+			isa = PBXGroup;
+			children = (
+				043D1F1821996C0C00AB925D /* ChainedDemoUI控件链式创建 */,
+				043D1F3121996C0C00AB925D /* ChainedDemoUI控件链式创建Tests */,
+				043D1F3C21996C0C00AB925D /* ChainedDemoUI控件链式创建UITests */,
+				043D1F5021996C4E00AB925D /* ChainedDemo链式调用TableView和CollectionView */,
+				043D1F6921996C4F00AB925D /* ChainedDemo链式调用TableView和CollectionViewTests */,
+				043D1F7421996C4F00AB925D /* ChainedDemo链式调用TableView和CollectionViewUITests */,
+				043D1F8621996C5D00AB925D /* ChainedDemo复杂tableView的抽离 */,
+				043D1F9F21996C5E00AB925D /* ChainedDemo复杂tableView的抽离Tests */,
+				043D1FAA21996C5E00AB925D /* ChainedDemo复杂tableView的抽离UITests */,
+				043D1F1721996C0C00AB925D /* Products */,
+				16E3E0F3D584D09CA7B68CA6 /* Pods */,
+				EC1C2B079172B41297ADD117 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		043D1F1721996C0C00AB925D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				043D1F1621996C0C00AB925D /* ChainedDemoUI控件链式创建.app */,
+				043D1F2E21996C0C00AB925D /* ChainedDemoUI控件链式创建Tests.xctest */,
+				043D1F3921996C0C00AB925D /* ChainedDemoUI控件链式创建UITests.xctest */,
+				043D1F4F21996C4E00AB925D /* ChainedDemo链式调用TableView和CollectionView.app */,
+				043D1F6621996C4F00AB925D /* ChainedDemo链式调用TableView和CollectionViewTests.xctest */,
+				043D1F7121996C4F00AB925D /* ChainedDemo链式调用TableView和CollectionViewUITests.xctest */,
+				043D1F8521996C5D00AB925D /* ChainedDemo复杂tableView的抽离.app */,
+				043D1F9C21996C5E00AB925D /* ChainedDemo复杂tableView的抽离Tests.xctest */,
+				043D1FA721996C5E00AB925D /* ChainedDemo复杂tableView的抽离UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		043D1F1821996C0C00AB925D /* ChainedDemoUI控件链式创建 */ = {
+			isa = PBXGroup;
+			children = (
+				043D1FC321996C7800AB925D /* test.jpg */,
+				043D1FB721996C7700AB925D /* VC */,
+				043D1FBE21996C7800AB925D /* View */,
+				043D1F1921996C0C00AB925D /* AppDelegate.h */,
+				043D1F1A21996C0C00AB925D /* AppDelegate.m */,
+				043D1F1C21996C0C00AB925D /* ViewController.h */,
+				043D1F1D21996C0C00AB925D /* ViewController.m */,
+				043D1F1F21996C0C00AB925D /* Main.storyboard */,
+				043D1F2221996C0C00AB925D /* Assets.xcassets */,
+				043D1F2421996C0C00AB925D /* LaunchScreen.storyboard */,
+				043D1F2721996C0C00AB925D /* Info.plist */,
+				043D1F2821996C0C00AB925D /* main.m */,
+			);
+			path = "ChainedDemoUI控件链式创建";
+			sourceTree = "<group>";
+		};
+		043D1F3121996C0C00AB925D /* ChainedDemoUI控件链式创建Tests */ = {
+			isa = PBXGroup;
+			children = (
+				043D1F3221996C0C00AB925D /* ChainedDemoUI______Tests.m */,
+				043D1F3421996C0C00AB925D /* Info.plist */,
+			);
+			path = "ChainedDemoUI控件链式创建Tests";
+			sourceTree = "<group>";
+		};
+		043D1F3C21996C0C00AB925D /* ChainedDemoUI控件链式创建UITests */ = {
+			isa = PBXGroup;
+			children = (
+				043D1F3D21996C0C00AB925D /* ChainedDemoUI______UITests.m */,
+				043D1F3F21996C0C00AB925D /* Info.plist */,
+			);
+			path = "ChainedDemoUI控件链式创建UITests";
+			sourceTree = "<group>";
+		};
+		043D1F5021996C4E00AB925D /* ChainedDemo链式调用TableView和CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				043D1FD621996C9C00AB925D /* TestCV */,
+				043D1FCA21996C9C00AB925D /* TestTV */,
+				043D1FD521996C9C00AB925D /* ZFC_TestViewController.h */,
+				043D1FE121996C9C00AB925D /* ZFC_TestViewController.m */,
+				043D1F5121996C4E00AB925D /* AppDelegate.h */,
+				043D1F5221996C4E00AB925D /* AppDelegate.m */,
+				043D1F5421996C4E00AB925D /* ViewController.h */,
+				043D1F5521996C4E00AB925D /* ViewController.m */,
+				043D1F5721996C4E00AB925D /* Main.storyboard */,
+				043D1F5A21996C4F00AB925D /* Assets.xcassets */,
+				043D1F5C21996C4F00AB925D /* LaunchScreen.storyboard */,
+				043D1F5F21996C4F00AB925D /* Info.plist */,
+				043D1F6021996C4F00AB925D /* main.m */,
+			);
+			path = "ChainedDemo链式调用TableView和CollectionView";
+			sourceTree = "<group>";
+		};
+		043D1F6921996C4F00AB925D /* ChainedDemo链式调用TableView和CollectionViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				043D1F6A21996C4F00AB925D /* ChainedDemo____TableView_CollectionViewTests.m */,
+				043D1F6C21996C4F00AB925D /* Info.plist */,
+			);
+			path = "ChainedDemo链式调用TableView和CollectionViewTests";
+			sourceTree = "<group>";
+		};
+		043D1F7421996C4F00AB925D /* ChainedDemo链式调用TableView和CollectionViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				043D1F7521996C4F00AB925D /* ChainedDemo____TableView_CollectionViewUITests.m */,
+				043D1F7721996C4F00AB925D /* Info.plist */,
+			);
+			path = "ChainedDemo链式调用TableView和CollectionViewUITests";
+			sourceTree = "<group>";
+		};
+		043D1F8621996C5D00AB925D /* ChainedDemo复杂tableView的抽离 */ = {
+			isa = PBXGroup;
+			children = (
+				043D1FF521996CBB00AB925D /* View */,
+				043D1FEF21996CBB00AB925D /* Model */,
+				043D1FF421996CBB00AB925D /* TestViewController.h */,
+				043D200A21996CBB00AB925D /* TestViewController.m */,
+				043D1F8721996C5D00AB925D /* AppDelegate.h */,
+				043D1F8821996C5D00AB925D /* AppDelegate.m */,
+				043D1F8A21996C5D00AB925D /* ViewController.h */,
+				043D1F8B21996C5D00AB925D /* ViewController.m */,
+				043D1F8D21996C5D00AB925D /* Main.storyboard */,
+				043D1F9021996C5E00AB925D /* Assets.xcassets */,
+				043D1F9221996C5E00AB925D /* LaunchScreen.storyboard */,
+				043D1F9521996C5E00AB925D /* Info.plist */,
+				043D1F9621996C5E00AB925D /* main.m */,
+			);
+			path = "ChainedDemo复杂tableView的抽离";
+			sourceTree = "<group>";
+		};
+		043D1F9F21996C5E00AB925D /* ChainedDemo复杂tableView的抽离Tests */ = {
+			isa = PBXGroup;
+			children = (
+				043D1FA021996C5E00AB925D /* ChainedDemo__tableView___Tests.m */,
+				043D1FA221996C5E00AB925D /* Info.plist */,
+			);
+			path = "ChainedDemo复杂tableView的抽离Tests";
+			sourceTree = "<group>";
+		};
+		043D1FAA21996C5E00AB925D /* ChainedDemo复杂tableView的抽离UITests */ = {
+			isa = PBXGroup;
+			children = (
+				043D1FAB21996C5E00AB925D /* ChainedDemo__tableView___UITests.m */,
+				043D1FAD21996C5E00AB925D /* Info.plist */,
+			);
+			path = "ChainedDemo复杂tableView的抽离UITests";
+			sourceTree = "<group>";
+		};
+		043D1FB721996C7700AB925D /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				043D1FB821996C7700AB925D /* TestChainedCreate_CollectionView.h */,
+				043D1FB921996C7700AB925D /* TestChainedCreate_CollectionView.m */,
+				043D1FBA21996C7700AB925D /* TestChainedCreate_OtherView.h */,
+				043D1FBB21996C7700AB925D /* TestChainedCreate_OtherView.m */,
+				043D1FBC21996C7700AB925D /* TestChainedCreate_TableView.h */,
+				043D1FBD21996C7700AB925D /* TestChainedCreate_TableView.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		043D1FBE21996C7800AB925D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				043D1FBF21996C7800AB925D /* TestCollectionViewHeaderFooterView.h */,
+				043D1FC021996C7800AB925D /* TestCollectionViewHeaderFooterView.m */,
+				043D1FC121996C7800AB925D /* TestTableViewHeaderFooterView.h */,
+				043D1FC221996C7800AB925D /* TestTableViewHeaderFooterView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		043D1FCA21996C9C00AB925D /* TestTV */ = {
+			isa = PBXGroup;
+			children = (
+				043D1FCB21996C9C00AB925D /* ZFC_TableViewCell.h */,
+				043D1FCC21996C9C00AB925D /* ZFC_TableViewCell.m */,
+				043D1FCD21996C9C00AB925D /* ZFC_TableViewCell_XIB.h */,
+				043D1FCE21996C9C00AB925D /* ZFC_TableViewCell_XIB.m */,
+				043D1FCF21996C9C00AB925D /* ZFC_TableViewCell_XIB.xib */,
+				043D1FD021996C9C00AB925D /* ZFC_TableViewHeaderFooterView.h */,
+				043D1FD121996C9C00AB925D /* ZFC_TableViewHeaderFooterView.m */,
+				043D1FD221996C9C00AB925D /* ZFC_TableViewHeaderFooterView_XIB.h */,
+				043D1FD321996C9C00AB925D /* ZFC_TableViewHeaderFooterView_XIB.m */,
+				043D1FD421996C9C00AB925D /* ZFC_TableViewHeaderFooterView_XIB.xib */,
+			);
+			name = TestTV;
+			path = "../../未命名文件夹/ChainedDemo常见UI控件链式创建/ChainedDemo链式调用TableView和CollectionView/TestTV";
+			sourceTree = "<group>";
+		};
+		043D1FD621996C9C00AB925D /* TestCV */ = {
+			isa = PBXGroup;
+			children = (
+				043D1FD721996C9C00AB925D /* ZFC_CollectionHeaderFooterView.h */,
+				043D1FD821996C9C00AB925D /* ZFC_CollectionHeaderFooterView.m */,
+				043D1FD921996C9C00AB925D /* ZFC_CollectionHeaderFooterView_XIB.h */,
+				043D1FDA21996C9C00AB925D /* ZFC_CollectionHeaderFooterView_XIB.m */,
+				043D1FDB21996C9C00AB925D /* ZFC_CollectionHeaderFooterView_XIB.xib */,
+				043D1FDC21996C9C00AB925D /* ZFC_CollectionViewCell.h */,
+				043D1FDD21996C9C00AB925D /* ZFC_CollectionViewCell.m */,
+				043D1FDE21996C9C00AB925D /* ZFC_CollectionViewCell_XIB.h */,
+				043D1FDF21996C9C00AB925D /* ZFC_CollectionViewCell_XIB.m */,
+				043D1FE021996C9C00AB925D /* ZFC_CollectionViewCell_XIB.xib */,
+			);
+			name = TestCV;
+			path = "../../未命名文件夹/ChainedDemo常见UI控件链式创建/ChainedDemo链式调用TableView和CollectionView/TestCV";
+			sourceTree = "<group>";
+		};
+		043D1FEF21996CBB00AB925D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				043D1FF021996CBB00AB925D /* ZFCTestRowModel.h */,
+				043D1FF121996CBB00AB925D /* ZFCTestRowModel.m */,
+				043D1FF221996CBB00AB925D /* ZFCTestSectionModel.h */,
+				043D1FF321996CBB00AB925D /* ZFCTestSectionModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		043D1FF521996CBB00AB925D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				043D1FF621996CBB00AB925D /* ZFCSecondTableViewCell.h */,
+				043D1FF721996CBB00AB925D /* ZFCSecondTableViewCell.m */,
+				043D1FF821996CBB00AB925D /* ZFCSecondTableViewCell_XIB.h */,
+				043D1FF921996CBB00AB925D /* ZFCSecondTableViewCell_XIB.m */,
+				043D1FFA21996CBB00AB925D /* ZFCSecondTableViewCell_XIB.xib */,
+				043D1FFB21996CBB00AB925D /* ZFCTableViewCell.h */,
+				043D1FFC21996CBB00AB925D /* ZFCTableViewCell.m */,
+				043D1FFD21996CBB00AB925D /* ZFCTableViewCell_XIB.h */,
+				043D1FFE21996CBB00AB925D /* ZFCTableViewCell_XIB.m */,
+				043D1FFF21996CBB00AB925D /* ZFCTableViewCell_XIB.xib */,
+				043D200021996CBB00AB925D /* ZFCTableViewHeaderFooterView.h */,
+				043D200121996CBB00AB925D /* ZFCTableViewHeaderFooterView.m */,
+				043D200221996CBB00AB925D /* ZFCTableViewHeaderFooterView_XIB.h */,
+				043D200321996CBB00AB925D /* ZFCTableViewHeaderFooterView_XIB.m */,
+				043D200421996CBB00AB925D /* ZFCTableViewHeaderFooterView_XIB.xib */,
+				043D200521996CBB00AB925D /* ZFCThirdTableViewCell.h */,
+				043D200621996CBB00AB925D /* ZFCThirdTableViewCell.m */,
+				043D200721996CBB00AB925D /* ZFCThirdTableViewCell_XIB.h */,
+				043D200821996CBB00AB925D /* ZFCThirdTableViewCell_XIB.m */,
+				043D200921996CBB00AB925D /* ZFCThirdTableViewCell_XIB.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		16E3E0F3D584D09CA7B68CA6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B343AB4B01D6C550DEB04451 /* Pods-ChainedDemoUI控件链式创建.debug.xcconfig */,
+				DB888EA1001C46BBB95E923F /* Pods-ChainedDemoUI控件链式创建.release.xcconfig */,
+				C91891C96D94F3F50F26593F /* Pods-ChainedDemo复杂tableView的抽离.debug.xcconfig */,
+				0CEAE11861491598D44FADF4 /* Pods-ChainedDemo复杂tableView的抽离.release.xcconfig */,
+				780959AE5519E51A6A4EC6B4 /* Pods-ChainedDemo链式调用TableView和CollectionView.debug.xcconfig */,
+				788935BDAE1A01EF35DC99BB /* Pods-ChainedDemo链式调用TableView和CollectionView.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EC1C2B079172B41297ADD117 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A477E7B5AB9FEBA6277CF6B3 /* libPods-ChainedDemoUI控件链式创建.a */,
+				925F464E2608FC1FBD1F3FA0 /* libPods-ChainedDemo复杂tableView的抽离.a */,
+				D12BA59C5C43015A138581C3 /* libPods-ChainedDemo链式调用TableView和CollectionView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		043D1F1521996C0C00AB925D /* ChainedDemoUI控件链式创建 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043D1F4221996C0C00AB925D /* Build configuration list for PBXNativeTarget "ChainedDemoUI控件链式创建" */;
+			buildPhases = (
+				3C5D15E809BF4B8970D8E4FB /* [CP] Check Pods Manifest.lock */,
+				043D1F1221996C0C00AB925D /* Sources */,
+				043D1F1321996C0C00AB925D /* Frameworks */,
+				043D1F1421996C0C00AB925D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ChainedDemoUI控件链式创建";
+			productName = "ChainedDemoUI控件链式创建";
+			productReference = 043D1F1621996C0C00AB925D /* ChainedDemoUI控件链式创建.app */;
+			productType = "com.apple.product-type.application";
+		};
+		043D1F2D21996C0C00AB925D /* ChainedDemoUI控件链式创建Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043D1F4521996C0C00AB925D /* Build configuration list for PBXNativeTarget "ChainedDemoUI控件链式创建Tests" */;
+			buildPhases = (
+				043D1F2A21996C0C00AB925D /* Sources */,
+				043D1F2B21996C0C00AB925D /* Frameworks */,
+				043D1F2C21996C0C00AB925D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				043D1F3021996C0C00AB925D /* PBXTargetDependency */,
+			);
+			name = "ChainedDemoUI控件链式创建Tests";
+			productName = "ChainedDemoUI控件链式创建Tests";
+			productReference = 043D1F2E21996C0C00AB925D /* ChainedDemoUI控件链式创建Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		043D1F3821996C0C00AB925D /* ChainedDemoUI控件链式创建UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043D1F4821996C0C00AB925D /* Build configuration list for PBXNativeTarget "ChainedDemoUI控件链式创建UITests" */;
+			buildPhases = (
+				043D1F3521996C0C00AB925D /* Sources */,
+				043D1F3621996C0C00AB925D /* Frameworks */,
+				043D1F3721996C0C00AB925D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				043D1F3B21996C0C00AB925D /* PBXTargetDependency */,
+			);
+			name = "ChainedDemoUI控件链式创建UITests";
+			productName = "ChainedDemoUI控件链式创建UITests";
+			productReference = 043D1F3921996C0C00AB925D /* ChainedDemoUI控件链式创建UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		043D1F4E21996C4E00AB925D /* ChainedDemo链式调用TableView和CollectionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043D1F7821996C4F00AB925D /* Build configuration list for PBXNativeTarget "ChainedDemo链式调用TableView和CollectionView" */;
+			buildPhases = (
+				9C9E0638AB85D3B33B1BAC47 /* [CP] Check Pods Manifest.lock */,
+				043D1F4B21996C4E00AB925D /* Sources */,
+				043D1F4C21996C4E00AB925D /* Frameworks */,
+				043D1F4D21996C4E00AB925D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ChainedDemo链式调用TableView和CollectionView";
+			productName = "ChainedDemo链式调用TableView和CollectionView";
+			productReference = 043D1F4F21996C4E00AB925D /* ChainedDemo链式调用TableView和CollectionView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		043D1F6521996C4F00AB925D /* ChainedDemo链式调用TableView和CollectionViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043D1F7B21996C4F00AB925D /* Build configuration list for PBXNativeTarget "ChainedDemo链式调用TableView和CollectionViewTests" */;
+			buildPhases = (
+				043D1F6221996C4F00AB925D /* Sources */,
+				043D1F6321996C4F00AB925D /* Frameworks */,
+				043D1F6421996C4F00AB925D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				043D1F6821996C4F00AB925D /* PBXTargetDependency */,
+			);
+			name = "ChainedDemo链式调用TableView和CollectionViewTests";
+			productName = "ChainedDemo链式调用TableView和CollectionViewTests";
+			productReference = 043D1F6621996C4F00AB925D /* ChainedDemo链式调用TableView和CollectionViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		043D1F7021996C4F00AB925D /* ChainedDemo链式调用TableView和CollectionViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043D1F7E21996C4F00AB925D /* Build configuration list for PBXNativeTarget "ChainedDemo链式调用TableView和CollectionViewUITests" */;
+			buildPhases = (
+				043D1F6D21996C4F00AB925D /* Sources */,
+				043D1F6E21996C4F00AB925D /* Frameworks */,
+				043D1F6F21996C4F00AB925D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				043D1F7321996C4F00AB925D /* PBXTargetDependency */,
+			);
+			name = "ChainedDemo链式调用TableView和CollectionViewUITests";
+			productName = "ChainedDemo链式调用TableView和CollectionViewUITests";
+			productReference = 043D1F7121996C4F00AB925D /* ChainedDemo链式调用TableView和CollectionViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		043D1F8421996C5D00AB925D /* ChainedDemo复杂tableView的抽离 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043D1FAE21996C5E00AB925D /* Build configuration list for PBXNativeTarget "ChainedDemo复杂tableView的抽离" */;
+			buildPhases = (
+				D4042E466A5CF155ACDF7039 /* [CP] Check Pods Manifest.lock */,
+				043D1F8121996C5D00AB925D /* Sources */,
+				043D1F8221996C5D00AB925D /* Frameworks */,
+				043D1F8321996C5D00AB925D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ChainedDemo复杂tableView的抽离";
+			productName = "ChainedDemo复杂tableView的抽离";
+			productReference = 043D1F8521996C5D00AB925D /* ChainedDemo复杂tableView的抽离.app */;
+			productType = "com.apple.product-type.application";
+		};
+		043D1F9B21996C5E00AB925D /* ChainedDemo复杂tableView的抽离Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043D1FB121996C5E00AB925D /* Build configuration list for PBXNativeTarget "ChainedDemo复杂tableView的抽离Tests" */;
+			buildPhases = (
+				043D1F9821996C5E00AB925D /* Sources */,
+				043D1F9921996C5E00AB925D /* Frameworks */,
+				043D1F9A21996C5E00AB925D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				043D1F9E21996C5E00AB925D /* PBXTargetDependency */,
+			);
+			name = "ChainedDemo复杂tableView的抽离Tests";
+			productName = "ChainedDemo复杂tableView的抽离Tests";
+			productReference = 043D1F9C21996C5E00AB925D /* ChainedDemo复杂tableView的抽离Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		043D1FA621996C5E00AB925D /* ChainedDemo复杂tableView的抽离UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043D1FB421996C5E00AB925D /* Build configuration list for PBXNativeTarget "ChainedDemo复杂tableView的抽离UITests" */;
+			buildPhases = (
+				043D1FA321996C5E00AB925D /* Sources */,
+				043D1FA421996C5E00AB925D /* Frameworks */,
+				043D1FA521996C5E00AB925D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				043D1FA921996C5E00AB925D /* PBXTargetDependency */,
+			);
+			name = "ChainedDemo复杂tableView的抽离UITests";
+			productName = "ChainedDemo复杂tableView的抽离UITests";
+			productReference = 043D1FA721996C5E00AB925D /* ChainedDemo复杂tableView的抽离UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		043D1F0E21996C0C00AB925D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					043D1F1521996C0C00AB925D = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					043D1F2D21996C0C00AB925D = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 043D1F1521996C0C00AB925D;
+					};
+					043D1F3821996C0C00AB925D = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 043D1F1521996C0C00AB925D;
+					};
+					043D1F4E21996C4E00AB925D = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					043D1F6521996C4F00AB925D = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 043D1F4E21996C4E00AB925D;
+					};
+					043D1F7021996C4F00AB925D = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 043D1F4E21996C4E00AB925D;
+					};
+					043D1F8421996C5D00AB925D = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					043D1F9B21996C5E00AB925D = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 043D1F8421996C5D00AB925D;
+					};
+					043D1FA621996C5E00AB925D = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 043D1F8421996C5D00AB925D;
+					};
+				};
+			};
+			buildConfigurationList = 043D1F1121996C0C00AB925D /* Build configuration list for PBXProject "ChainedDemoUI控件链式创建" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 043D1F0D21996C0C00AB925D;
+			productRefGroup = 043D1F1721996C0C00AB925D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				043D1F1521996C0C00AB925D /* ChainedDemoUI控件链式创建 */,
+				043D1F2D21996C0C00AB925D /* ChainedDemoUI控件链式创建Tests */,
+				043D1F3821996C0C00AB925D /* ChainedDemoUI控件链式创建UITests */,
+				043D1F4E21996C4E00AB925D /* ChainedDemo链式调用TableView和CollectionView */,
+				043D1F6521996C4F00AB925D /* ChainedDemo链式调用TableView和CollectionViewTests */,
+				043D1F7021996C4F00AB925D /* ChainedDemo链式调用TableView和CollectionViewUITests */,
+				043D1F8421996C5D00AB925D /* ChainedDemo复杂tableView的抽离 */,
+				043D1F9B21996C5E00AB925D /* ChainedDemo复杂tableView的抽离Tests */,
+				043D1FA621996C5E00AB925D /* ChainedDemo复杂tableView的抽离UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		043D1F1421996C0C00AB925D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043D1F2621996C0C00AB925D /* LaunchScreen.storyboard in Resources */,
+				043D1F2321996C0C00AB925D /* Assets.xcassets in Resources */,
+				043D1F2121996C0C00AB925D /* Main.storyboard in Resources */,
+				043D1FC921996C7800AB925D /* test.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043D1F2C21996C0C00AB925D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043D1F3721996C0C00AB925D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043D1F4D21996C4E00AB925D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043D1FEA21996C9C00AB925D /* ZFC_CollectionHeaderFooterView_XIB.xib in Resources */,
+				043D1F5E21996C4F00AB925D /* LaunchScreen.storyboard in Resources */,
+				043D1FE421996C9C00AB925D /* ZFC_TableViewCell_XIB.xib in Resources */,
+				043D1F5B21996C4F00AB925D /* Assets.xcassets in Resources */,
+				043D1FED21996C9C00AB925D /* ZFC_CollectionViewCell_XIB.xib in Resources */,
+				043D1F5921996C4E00AB925D /* Main.storyboard in Resources */,
+				043D1FE721996C9C00AB925D /* ZFC_TableViewHeaderFooterView_XIB.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043D1F6421996C4F00AB925D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043D1F6F21996C4F00AB925D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043D1F8321996C5D00AB925D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043D1F9421996C5E00AB925D /* LaunchScreen.storyboard in Resources */,
+				043D201221996CBB00AB925D /* ZFCTableViewCell_XIB.xib in Resources */,
+				043D201821996CBB00AB925D /* ZFCThirdTableViewCell_XIB.xib in Resources */,
+				043D201521996CBB00AB925D /* ZFCTableViewHeaderFooterView_XIB.xib in Resources */,
+				043D1F9121996C5E00AB925D /* Assets.xcassets in Resources */,
+				043D1F8F21996C5D00AB925D /* Main.storyboard in Resources */,
+				043D200F21996CBB00AB925D /* ZFCSecondTableViewCell_XIB.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043D1F9A21996C5E00AB925D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043D1FA521996C5E00AB925D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C5D15E809BF4B8970D8E4FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChainedDemoUI控件链式创建-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C9E0638AB85D3B33B1BAC47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChainedDemo链式调用TableView和CollectionView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4042E466A5CF155ACDF7039 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChainedDemo复杂tableView的抽离-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		043D1F1221996C0C00AB925D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043D1FC821996C7800AB925D /* TestTableViewHeaderFooterView.m in Sources */,
+				043D1FC521996C7800AB925D /* TestChainedCreate_OtherView.m in Sources */,
+				043D1F1E21996C0C00AB925D /* ViewController.m in Sources */,
+				043D1F2921996C0C00AB925D /* main.m in Sources */,
+				043D1F1B21996C0C00AB925D /* AppDelegate.m in Sources */,
+				043D1FC621996C7800AB925D /* TestChainedCreate_TableView.m in Sources */,
+				043D1FC721996C7800AB925D /* TestCollectionViewHeaderFooterView.m in Sources */,
+				043D1FC421996C7800AB925D /* TestChainedCreate_CollectionView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043D1F2A21996C0C00AB925D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043D1F3321996C0C00AB925D /* ChainedDemoUI______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043D1F3521996C0C00AB925D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043D1F3E21996C0C00AB925D /* ChainedDemoUI______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043D1F4B21996C4E00AB925D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043D1FE821996C9C00AB925D /* ZFC_CollectionHeaderFooterView.m in Sources */,
+				043D1FE921996C9C00AB925D /* ZFC_CollectionHeaderFooterView_XIB.m in Sources */,
+				043D1FEB21996C9C00AB925D /* ZFC_CollectionViewCell.m in Sources */,
+				043D1F5621996C4E00AB925D /* ViewController.m in Sources */,
+				043D1FEE21996C9C00AB925D /* ZFC_TestViewController.m in Sources */,
+				043D1F6121996C4F00AB925D /* main.m in Sources */,
+				043D1F5321996C4E00AB925D /* AppDelegate.m in Sources */,
+				043D1FE221996C9C00AB925D /* ZFC_TableViewCell.m in Sources */,
+				043D1FE521996C9C00AB925D /* ZFC_TableViewHeaderFooterView.m in Sources */,
+				043D1FE321996C9C00AB925D /* ZFC_TableViewCell_XIB.m in Sources */,
+				043D1FE621996C9C00AB925D /* ZFC_TableViewHeaderFooterView_XIB.m in Sources */,
+				043D1FEC21996C9C00AB925D /* ZFC_CollectionViewCell_XIB.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043D1F6221996C4F00AB925D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043D1F6B21996C4F00AB925D /* ChainedDemo____TableView_CollectionViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043D1F6D21996C4F00AB925D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043D1F7621996C4F00AB925D /* ChainedDemo____TableView_CollectionViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043D1F8121996C5D00AB925D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043D201321996CBB00AB925D /* ZFCTableViewHeaderFooterView.m in Sources */,
+				043D200B21996CBB00AB925D /* ZFCTestRowModel.m in Sources */,
+				043D201921996CBB00AB925D /* TestViewController.m in Sources */,
+				043D201721996CBB00AB925D /* ZFCThirdTableViewCell_XIB.m in Sources */,
+				043D1F8C21996C5D00AB925D /* ViewController.m in Sources */,
+				043D201621996CBB00AB925D /* ZFCThirdTableViewCell.m in Sources */,
+				043D200E21996CBB00AB925D /* ZFCSecondTableViewCell_XIB.m in Sources */,
+				043D201021996CBB00AB925D /* ZFCTableViewCell.m in Sources */,
+				043D201121996CBB00AB925D /* ZFCTableViewCell_XIB.m in Sources */,
+				043D200C21996CBB00AB925D /* ZFCTestSectionModel.m in Sources */,
+				043D201421996CBB00AB925D /* ZFCTableViewHeaderFooterView_XIB.m in Sources */,
+				043D1F9721996C5E00AB925D /* main.m in Sources */,
+				043D1F8921996C5D00AB925D /* AppDelegate.m in Sources */,
+				043D200D21996CBB00AB925D /* ZFCSecondTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043D1F9821996C5E00AB925D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043D1FA121996C5E00AB925D /* ChainedDemo__tableView___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043D1FA321996C5E00AB925D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043D1FAC21996C5E00AB925D /* ChainedDemo__tableView___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		043D1F3021996C0C00AB925D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 043D1F1521996C0C00AB925D /* ChainedDemoUI控件链式创建 */;
+			targetProxy = 043D1F2F21996C0C00AB925D /* PBXContainerItemProxy */;
+		};
+		043D1F3B21996C0C00AB925D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 043D1F1521996C0C00AB925D /* ChainedDemoUI控件链式创建 */;
+			targetProxy = 043D1F3A21996C0C00AB925D /* PBXContainerItemProxy */;
+		};
+		043D1F6821996C4F00AB925D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 043D1F4E21996C4E00AB925D /* ChainedDemo链式调用TableView和CollectionView */;
+			targetProxy = 043D1F6721996C4F00AB925D /* PBXContainerItemProxy */;
+		};
+		043D1F7321996C4F00AB925D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 043D1F4E21996C4E00AB925D /* ChainedDemo链式调用TableView和CollectionView */;
+			targetProxy = 043D1F7221996C4F00AB925D /* PBXContainerItemProxy */;
+		};
+		043D1F9E21996C5E00AB925D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 043D1F8421996C5D00AB925D /* ChainedDemo复杂tableView的抽离 */;
+			targetProxy = 043D1F9D21996C5E00AB925D /* PBXContainerItemProxy */;
+		};
+		043D1FA921996C5E00AB925D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 043D1F8421996C5D00AB925D /* ChainedDemo复杂tableView的抽离 */;
+			targetProxy = 043D1FA821996C5E00AB925D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		043D1F1F21996C0C00AB925D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043D1F2021996C0C00AB925D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		043D1F2421996C0C00AB925D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043D1F2521996C0C00AB925D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		043D1F5721996C4E00AB925D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043D1F5821996C4E00AB925D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		043D1F5C21996C4F00AB925D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043D1F5D21996C4F00AB925D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		043D1F8D21996C5D00AB925D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043D1F8E21996C5D00AB925D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		043D1F9221996C5E00AB925D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043D1F9321996C5E00AB925D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		043D1F4021996C0C00AB925D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		043D1F4121996C0C00AB925D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		043D1F4321996C0C00AB925D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B343AB4B01D6C550DEB04451 /* Pods-ChainedDemoUI控件链式创建.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ChainedDemoUI控件链式创建/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fzqAudioVideoCacheProgress.ChainedDemoUI------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		043D1F4421996C0C00AB925D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB888EA1001C46BBB95E923F /* Pods-ChainedDemoUI控件链式创建.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ChainedDemoUI控件链式创建/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fzqAudioVideoCacheProgress.ChainedDemoUI------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		043D1F4621996C0C00AB925D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ChainedDemoUI控件链式创建Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fzqAudioVideoCacheProgress.ChainedDemoUI------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChainedDemoUI控件链式创建.app/ChainedDemoUI控件链式创建";
+			};
+			name = Debug;
+		};
+		043D1F4721996C0C00AB925D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ChainedDemoUI控件链式创建Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fzqAudioVideoCacheProgress.ChainedDemoUI------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChainedDemoUI控件链式创建.app/ChainedDemoUI控件链式创建";
+			};
+			name = Release;
+		};
+		043D1F4921996C0C00AB925D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ChainedDemoUI控件链式创建UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fzqAudioVideoCacheProgress.ChainedDemoUI------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ChainedDemoUI控件链式创建";
+			};
+			name = Debug;
+		};
+		043D1F4A21996C0C00AB925D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ChainedDemoUI控件链式创建UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fzqAudioVideoCacheProgress.ChainedDemoUI------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ChainedDemoUI控件链式创建";
+			};
+			name = Release;
+		};
+		043D1F7921996C4F00AB925D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 780959AE5519E51A6A4EC6B4 /* Pods-ChainedDemo链式调用TableView和CollectionView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ChainedDemo链式调用TableView和CollectionView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fzqAudioVideoCacheProgress.ChainedDemo----TableView-CollectionView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		043D1F7A21996C4F00AB925D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 788935BDAE1A01EF35DC99BB /* Pods-ChainedDemo链式调用TableView和CollectionView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ChainedDemo链式调用TableView和CollectionView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fzqAudioVideoCacheProgress.ChainedDemo----TableView-CollectionView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		043D1F7C21996C4F00AB925D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ChainedDemo链式调用TableView和CollectionViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fzqAudioVideoCacheProgress.ChainedDemo----TableView-CollectionViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChainedDemo链式调用TableView和CollectionView.app/ChainedDemo链式调用TableView和CollectionView";
+			};
+			name = Debug;
+		};
+		043D1F7D21996C4F00AB925D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ChainedDemo链式调用TableView和CollectionViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fzqAudioVideoCacheProgress.ChainedDemo----TableView-CollectionViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChainedDemo链式调用TableView和CollectionView.app/ChainedDemo链式调用TableView和CollectionView";
+			};
+			name = Release;
+		};
+		043D1F7F21996C4F00AB925D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ChainedDemo链式调用TableView和CollectionViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fzqAudioVideoCacheProgress.ChainedDemo----TableView-CollectionViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ChainedDemo链式调用TableView和CollectionView";
+			};
+			name = Debug;
+		};
+		043D1F8021996C4F00AB925D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ChainedDemo链式调用TableView和CollectionViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fzqAudioVideoCacheProgress.ChainedDemo----TableView-CollectionViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ChainedDemo链式调用TableView和CollectionView";
+			};
+			name = Release;
+		};
+		043D1FAF21996C5E00AB925D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C91891C96D94F3F50F26593F /* Pods-ChainedDemo复杂tableView的抽离.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ChainedDemo复杂tableView的抽离/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fzqAudioVideoCacheProgress.ChainedDemo--tableView---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		043D1FB021996C5E00AB925D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CEAE11861491598D44FADF4 /* Pods-ChainedDemo复杂tableView的抽离.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ChainedDemo复杂tableView的抽离/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fzqAudioVideoCacheProgress.ChainedDemo--tableView---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		043D1FB221996C5E00AB925D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ChainedDemo复杂tableView的抽离Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fzqAudioVideoCacheProgress.ChainedDemo--tableView---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChainedDemo复杂tableView的抽离.app/ChainedDemo复杂tableView的抽离";
+			};
+			name = Debug;
+		};
+		043D1FB321996C5E00AB925D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ChainedDemo复杂tableView的抽离Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fzqAudioVideoCacheProgress.ChainedDemo--tableView---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChainedDemo复杂tableView的抽离.app/ChainedDemo复杂tableView的抽离";
+			};
+			name = Release;
+		};
+		043D1FB521996C5E00AB925D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ChainedDemo复杂tableView的抽离UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fzqAudioVideoCacheProgress.ChainedDemo--tableView---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ChainedDemo复杂tableView的抽离";
+			};
+			name = Debug;
+		};
+		043D1FB621996C5E00AB925D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ChainedDemo复杂tableView的抽离UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fzqAudioVideoCacheProgress.ChainedDemo--tableView---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ChainedDemo复杂tableView的抽离";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		043D1F1121996C0C00AB925D /* Build configuration list for PBXProject "ChainedDemoUI控件链式创建" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043D1F4021996C0C00AB925D /* Debug */,
+				043D1F4121996C0C00AB925D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043D1F4221996C0C00AB925D /* Build configuration list for PBXNativeTarget "ChainedDemoUI控件链式创建" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043D1F4321996C0C00AB925D /* Debug */,
+				043D1F4421996C0C00AB925D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043D1F4521996C0C00AB925D /* Build configuration list for PBXNativeTarget "ChainedDemoUI控件链式创建Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043D1F4621996C0C00AB925D /* Debug */,
+				043D1F4721996C0C00AB925D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043D1F4821996C0C00AB925D /* Build configuration list for PBXNativeTarget "ChainedDemoUI控件链式创建UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043D1F4921996C0C00AB925D /* Debug */,
+				043D1F4A21996C0C00AB925D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043D1F7821996C4F00AB925D /* Build configuration list for PBXNativeTarget "ChainedDemo链式调用TableView和CollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043D1F7921996C4F00AB925D /* Debug */,
+				043D1F7A21996C4F00AB925D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043D1F7B21996C4F00AB925D /* Build configuration list for PBXNativeTarget "ChainedDemo链式调用TableView和CollectionViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043D1F7C21996C4F00AB925D /* Debug */,
+				043D1F7D21996C4F00AB925D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043D1F7E21996C4F00AB925D /* Build configuration list for PBXNativeTarget "ChainedDemo链式调用TableView和CollectionViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043D1F7F21996C4F00AB925D /* Debug */,
+				043D1F8021996C4F00AB925D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043D1FAE21996C5E00AB925D /* Build configuration list for PBXNativeTarget "ChainedDemo复杂tableView的抽离" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043D1FAF21996C5E00AB925D /* Debug */,
+				043D1FB021996C5E00AB925D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043D1FB121996C5E00AB925D /* Build configuration list for PBXNativeTarget "ChainedDemo复杂tableView的抽离Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043D1FB221996C5E00AB925D /* Debug */,
+				043D1FB321996C5E00AB925D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043D1FB421996C5E00AB925D /* Build configuration list for PBXNativeTarget "ChainedDemo复杂tableView的抽离UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043D1FB521996C5E00AB925D /* Debug */,
+				043D1FB621996C5E00AB925D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 043D1F0E21996C0C00AB925D /* Project object */;
+}

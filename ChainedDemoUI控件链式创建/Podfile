@@ -1,0 +1,27 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+
+platform:ios,'8.0'
+inhibit_all_warnings!
+
+targetsArray = ['ChainedDemoUI控件链式创建', 'ChainedDemo链式调用TableView和CollectionView','ChainedDemo复杂tableView的抽离']
+
+project 'ChainedDemoUI控件链式创建.xcodeproj'
+
+
+targetsArray.each do |t|
+    target t do
+        pod 'ZFCChainedCreater', '~> 1.0.2'
+    end
+end
+
+
+
+
+
+
+
+
+
+
+

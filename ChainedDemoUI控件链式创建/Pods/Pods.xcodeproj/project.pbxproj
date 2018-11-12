@@ -1,0 +1,901 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D4042EB3F2EA8861448E07016705E95 /* ZFC_TableViewChainedInvokeConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = B8462BA613C255466734F5EAB68AC3D2 /* ZFC_TableViewChainedInvokeConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		12F50A18E53DAAA189514C7F0978C9D9 /* ZFC_TextViewChainedCreater.h in Headers */ = {isa = PBXBuildFile; fileRef = C14874CB0FA98F49802BD4D9FDF03815 /* ZFC_TextViewChainedCreater.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		169FBFBA98D17A9340FABA65C34D3643 /* UITableViewHeaderFooterView+ZFC_HeaderFooterComplexConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 832908C786686D8A57EA1F1FD835BD91 /* UITableViewHeaderFooterView+ZFC_HeaderFooterComplexConfig.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1A13DA43C74454E3E5DE8BFEB3092DDB /* ZFC_TableViewChainedInvokeCreater.m in Sources */ = {isa = PBXBuildFile; fileRef = 707FF04A0EB13B7E59BA79574A0D15B7 /* ZFC_TableViewChainedInvokeCreater.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		232A2BF517259C7C7F1DA11F3BBFBA0F /* UITableViewCell+ZFC_CellComplexConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 91EBDE05914893C0C79E947B339D29F5 /* UITableViewCell+ZFC_CellComplexConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		246989BCA103BE9405390D2B4C2CD661 /* ZFC_TableViewComplexConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = A80CA8143AD98FC67631CE02C12F312B /* ZFC_TableViewComplexConfig.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2AB9857C4508D82BA5BBB96CB46A71BC /* ZFC_ChainedCreaterHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C2DAAAEE39B98153E15DA0AB18A8338 /* ZFC_ChainedCreaterHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		319E2514B15B6E4545A1D731167C8B71 /* UICollectionView+ZFCChainedInvokeCreater.m in Sources */ = {isa = PBXBuildFile; fileRef = A01D7BBC847446F26D948C4B21709AB5 /* UICollectionView+ZFCChainedInvokeCreater.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		32D9E9D506F385DBC63AC28FB0027DA0 /* ZFC_TableViewSectionSuperComplexModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B0ED2A37BC0828A83C844DB7F6E80E /* ZFC_TableViewSectionSuperComplexModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3A8D6484C6166568A6ED256F5FC259BE /* ZFC_TableViewRowSuperComplexModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 023E1DF8C5DA6693EBAA82BF16E2DEAD /* ZFC_TableViewRowSuperComplexModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		425671532AC6B2D7C5B1316CCE61CAF0 /* ZFC_CollectionViewChainnedInvokeCreater.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F00C5C0C121E66871903A09E02B9DFB /* ZFC_CollectionViewChainnedInvokeCreater.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4267A7FE942669570871643C3977762F /* ZFC_ButtonChainedCreater.h in Headers */ = {isa = PBXBuildFile; fileRef = D533F9C78EFBE7619FED39B073BC5E92 /* ZFC_ButtonChainedCreater.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		48673FD05C1985792E9BD23C84519B83 /* ZFC_ViewChainedCreater.h in Headers */ = {isa = PBXBuildFile; fileRef = A030CC2B8AD358B8FE35DC9ACD5D0EAD /* ZFC_ViewChainedCreater.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		48D92E9785281EED3B8E56FCEF72D04E /* ZFC_TableViewRowSuperComplexModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAFC5C3BAB4D9FA592D98962A4E78E1 /* ZFC_TableViewRowSuperComplexModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		49AC84450D92B86E6D221DB8B2DF6974 /* ZFC_ViewChainedCreater.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8251E6EAA0F8BAD6B312AE08054B65 /* ZFC_ViewChainedCreater.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5555AA8F4B010E91254E1BEE694F3158 /* ZFC_ImageViewChainedCreater.h in Headers */ = {isa = PBXBuildFile; fileRef = 264E0E9ACB2591945ED8927D7F20BF8E /* ZFC_ImageViewChainedCreater.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		56CC85BE462540390E73320062FD9057 /* ZFC_TableViewChainedCreater.h in Headers */ = {isa = PBXBuildFile; fileRef = BF1503BF1A0F77237209C2B2B1D1D4BD /* ZFC_TableViewChainedCreater.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		590E5AF59C6412154F36DD139E9A039D /* ZFC_CollectionViewChainnedInvokeCreater.m in Sources */ = {isa = PBXBuildFile; fileRef = F79C624BBBCCAF645373B043468E2FC0 /* ZFC_CollectionViewChainnedInvokeCreater.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		771A819BAD8C29EE19B9821EA6CBB09C /* Pods-ChainedDemoUI控件链式创建-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B033406D0E516271CF176ADC7500482A /* Pods-ChainedDemoUI控件链式创建-dummy.m */; };
+		7C91FB5F2FB82EF6081656FAC32B62CA /* Pods-ChainedDemo链式调用TableView和CollectionView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9779992EEB818F47CA34B85653187F /* Pods-ChainedDemo链式调用TableView和CollectionView-dummy.m */; };
+		81E68C4558421D69BD06B7FE7C39CED7 /* ZFC_CollectionChainedInvokeConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 076B83F77D3EBCAC8594C7BEBABF3EF2 /* ZFC_CollectionChainedInvokeConfig.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8EA599A94DFE417AA8CCEC1C6EBEFA39 /* UITableViewHeaderFooterView+ZFC_HeaderFooterComplexConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C7AF66DCB3EB98AC0962F135850B996 /* UITableViewHeaderFooterView+ZFC_HeaderFooterComplexConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8FC292825AA2EFDF22D8D443F411D2ED /* UITableView+ZFC_ChainedInvokeCreater.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7C925F93C274024AD98ECAAFB51AD1 /* UITableView+ZFC_ChainedInvokeCreater.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		91DCD32F2075424A54A048FC3B6D9E2A /* UICollectionView+ZFCChainedInvokeCreater.h in Headers */ = {isa = PBXBuildFile; fileRef = EFEDCFBAE10AC411C29F0F264FD23DC8 /* UICollectionView+ZFCChainedInvokeCreater.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		94AD93A46F3DF5D27C872E3559042F7A /* ZFC_CollectionChainedCreater.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CCEAB9919693A5AD3553FC229F5C52 /* ZFC_CollectionChainedCreater.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		95A6685D2D553ABF6F228BC9192F42A3 /* ZFC_TextViewChainedCreater.m in Sources */ = {isa = PBXBuildFile; fileRef = 4281114B146BD80C19D156B14321669C /* ZFC_TextViewChainedCreater.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		96A00477519976828D62130F920DCD5E /* ZFC_ImageViewChainedCreater.m in Sources */ = {isa = PBXBuildFile; fileRef = A781A02548F32EE35073C52000D3FA74 /* ZFC_ImageViewChainedCreater.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9E85BAEBFDF3C40DE4E6E70C87976D34 /* ZFC_LabelChainedCreater.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE312062FD85EADC0848B322557A94A /* ZFC_LabelChainedCreater.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		AC7427281F29BD50CF079C117109DF41 /* ZFC_TableViewSectionSuperComplexModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3054BE25168FF0DBC594D9640AD57CBF /* ZFC_TableViewSectionSuperComplexModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B6F423BB403D195CE0E21F2CB5F4145F /* ZFC_TableViewChainedInvokeConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E05FCF0F154E242FD0ADD7E9DF23EC /* ZFC_TableViewChainedInvokeConfig.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BA1CA738DF734EC1F856DEF4089C2FA0 /* UITableViewCell+ZFC_CellComplexConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B66D8082076F6313F53D1CD9F07B79E /* UITableViewCell+ZFC_CellComplexConfig.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C0542EA6207CCFEA85321DCF46C9DC03 /* ZFC_CollectionChainedInvokeConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D165CC3A5411B9E8B85EF13DA45CDF8 /* ZFC_CollectionChainedInvokeConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C1EEBF3957A0E7BC4BF814EA2026182F /* ZFC_TableViewComplexConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 56178586D696D7E721D31D5855902393 /* ZFC_TableViewComplexConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CE75240C2CA879126752A31E4996EB35 /* ZFC_CollectionChainedCreater.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D229F86FC8C8D36126B9A500CA34F50 /* ZFC_CollectionChainedCreater.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CF7C8B1F1AA29DD2713513A8458ABE5C /* ZFC_TextFieldChainedCreater.m in Sources */ = {isa = PBXBuildFile; fileRef = AFEF8FF520460525D53A18F788EE2CBC /* ZFC_TextFieldChainedCreater.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D8475D1E312879C7FF679246D5CC1F22 /* ZFC_ButtonChainedCreater.m in Sources */ = {isa = PBXBuildFile; fileRef = 854B8685BFEC8E7DDE9CC7D46026BF04 /* ZFC_ButtonChainedCreater.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D87CEA3A789DBF863A2C6568BF9B76CB /* ZFC_TableViewChainedInvokeCreater.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D6936353513EAE3A546E211D233587F /* ZFC_TableViewChainedInvokeCreater.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EA0D31E86BAE6248047C22BD7B0159A8 /* Pods-ChainedDemo复杂tableView的抽离-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22943449D5D7E02128CCAA9FE149F37D /* Pods-ChainedDemo复杂tableView的抽离-dummy.m */; };
+		F6487CA64825361DDA57FD2689FC0362 /* ZFC_TableViewChainedCreater.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C3AEB79573447D9E5FB2CCF9D97E125 /* ZFC_TableViewChainedCreater.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F65BE2D162AE132C738FCE621198DE0E /* UITableView+ZFC_ChainedInvokeCreater.h in Headers */ = {isa = PBXBuildFile; fileRef = 00FE81AA70631AEA7CB639B225FA2FB7 /* UITableView+ZFC_ChainedInvokeCreater.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F6FC8CCB0AEC72AF2B379F2073FCBA93 /* ZFC_LabelChainedCreater.h in Headers */ = {isa = PBXBuildFile; fileRef = ED471CC4FFBAE4410241D581E7A6B4F7 /* ZFC_LabelChainedCreater.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FD561D16D8FE6038E5DDBC9F2594D52F /* ZFCChainedCreater-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F293928AAD448F18219321FF9734A0E /* ZFCChainedCreater-dummy.m */; };
+		FE02A9F5C1AC8042CE8D0EFD53D056A8 /* ZFC_TextFieldChainedCreater.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DBCF9EF4D88BEAD2C959504FB2460AC /* ZFC_TextFieldChainedCreater.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F30916B6A96B4CC55A197C7878EC222 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2D5308AB9E395280503F7A8A5F4153F;
+			remoteInfo = ZFCChainedCreater;
+		};
+		739BBB3741F7B7DCBCB4C52C2EA28375 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2D5308AB9E395280503F7A8A5F4153F;
+			remoteInfo = ZFCChainedCreater;
+		};
+		D88697C8F48B6025077EF4A48EC6F5FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2D5308AB9E395280503F7A8A5F4153F;
+			remoteInfo = ZFCChainedCreater;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00FE81AA70631AEA7CB639B225FA2FB7 /* UITableView+ZFC_ChainedInvokeCreater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+ZFC_ChainedInvokeCreater.h"; path = "ZFCChainedCreater/UITableView+ZFC_ChainedInvokeCreater.h"; sourceTree = "<group>"; };
+		023E1DF8C5DA6693EBAA82BF16E2DEAD /* ZFC_TableViewRowSuperComplexModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFC_TableViewRowSuperComplexModel.h; path = ZFCChainedCreater/ZFC_TableViewRowSuperComplexModel.h; sourceTree = "<group>"; };
+		076B83F77D3EBCAC8594C7BEBABF3EF2 /* ZFC_CollectionChainedInvokeConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFC_CollectionChainedInvokeConfig.m; path = ZFCChainedCreater/ZFC_CollectionChainedInvokeConfig.m; sourceTree = "<group>"; };
+		0F3B7F39844998BE91225DEC8EE449A0 /* libPods-ChainedDemoUI控件链式创建.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ChainedDemoUI控件链式创建.a"; path = "libPods-ChainedDemoUI控件链式创建.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13E05FCF0F154E242FD0ADD7E9DF23EC /* ZFC_TableViewChainedInvokeConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFC_TableViewChainedInvokeConfig.m; path = ZFCChainedCreater/ZFC_TableViewChainedInvokeConfig.m; sourceTree = "<group>"; };
+		1B2ABC1866D148ACF97CB8CC4E8877EF /* Pods-ChainedDemoUI控件链式创建.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChainedDemoUI控件链式创建.release.xcconfig"; sourceTree = "<group>"; };
+		1EAF95ACEFDB399A36F16C9260851444 /* Pods-ChainedDemo链式调用TableView和CollectionView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChainedDemo链式调用TableView和CollectionView-acknowledgements.plist"; sourceTree = "<group>"; };
+		22943449D5D7E02128CCAA9FE149F37D /* Pods-ChainedDemo复杂tableView的抽离-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChainedDemo复杂tableView的抽离-dummy.m"; sourceTree = "<group>"; };
+		264E0E9ACB2591945ED8927D7F20BF8E /* ZFC_ImageViewChainedCreater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFC_ImageViewChainedCreater.h; path = ZFCChainedCreater/ZFC_ImageViewChainedCreater.h; sourceTree = "<group>"; };
+		2650FB3CCF08661CD367AE6C784FF04C /* libPods-ChainedDemo链式调用TableView和CollectionView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ChainedDemo链式调用TableView和CollectionView.a"; path = "libPods-ChainedDemo链式调用TableView和CollectionView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C2DAAAEE39B98153E15DA0AB18A8338 /* ZFC_ChainedCreaterHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFC_ChainedCreaterHeader.h; path = ZFCChainedCreater/ZFC_ChainedCreaterHeader.h; sourceTree = "<group>"; };
+		2C7AF66DCB3EB98AC0962F135850B996 /* UITableViewHeaderFooterView+ZFC_HeaderFooterComplexConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableViewHeaderFooterView+ZFC_HeaderFooterComplexConfig.h"; path = "ZFCChainedCreater/UITableViewHeaderFooterView+ZFC_HeaderFooterComplexConfig.h"; sourceTree = "<group>"; };
+		3054BE25168FF0DBC594D9640AD57CBF /* ZFC_TableViewSectionSuperComplexModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFC_TableViewSectionSuperComplexModel.h; path = ZFCChainedCreater/ZFC_TableViewSectionSuperComplexModel.h; sourceTree = "<group>"; };
+		356216F6D5F3CD3D27C21EB3C9C4AE5F /* Pods-ChainedDemoUI控件链式创建.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChainedDemoUI控件链式创建.debug.xcconfig"; sourceTree = "<group>"; };
+		35CCEAB9919693A5AD3553FC229F5C52 /* ZFC_CollectionChainedCreater.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFC_CollectionChainedCreater.m; path = ZFCChainedCreater/ZFC_CollectionChainedCreater.m; sourceTree = "<group>"; };
+		3B7C925F93C274024AD98ECAAFB51AD1 /* UITableView+ZFC_ChainedInvokeCreater.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+ZFC_ChainedInvokeCreater.m"; path = "ZFCChainedCreater/UITableView+ZFC_ChainedInvokeCreater.m"; sourceTree = "<group>"; };
+		3D6936353513EAE3A546E211D233587F /* ZFC_TableViewChainedInvokeCreater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFC_TableViewChainedInvokeCreater.h; path = ZFCChainedCreater/ZFC_TableViewChainedInvokeCreater.h; sourceTree = "<group>"; };
+		3F239A4ABBD955016F2106A03885E91B /* Pods-ChainedDemoUI控件链式创建-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChainedDemoUI控件链式创建-acknowledgements.plist"; sourceTree = "<group>"; };
+		4281114B146BD80C19D156B14321669C /* ZFC_TextViewChainedCreater.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFC_TextViewChainedCreater.m; path = ZFCChainedCreater/ZFC_TextViewChainedCreater.m; sourceTree = "<group>"; };
+		443D15AF6B94011FF07AE7D4E0D7F354 /* libPods-ChainedDemo复杂tableView的抽离.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ChainedDemo复杂tableView的抽离.a"; path = "libPods-ChainedDemo复杂tableView的抽离.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B66D8082076F6313F53D1CD9F07B79E /* UITableViewCell+ZFC_CellComplexConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableViewCell+ZFC_CellComplexConfig.m"; path = "ZFCChainedCreater/UITableViewCell+ZFC_CellComplexConfig.m"; sourceTree = "<group>"; };
+		4F00C5C0C121E66871903A09E02B9DFB /* ZFC_CollectionViewChainnedInvokeCreater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFC_CollectionViewChainnedInvokeCreater.h; path = ZFCChainedCreater/ZFC_CollectionViewChainnedInvokeCreater.h; sourceTree = "<group>"; };
+		50B0ED2A37BC0828A83C844DB7F6E80E /* ZFC_TableViewSectionSuperComplexModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFC_TableViewSectionSuperComplexModel.m; path = ZFCChainedCreater/ZFC_TableViewSectionSuperComplexModel.m; sourceTree = "<group>"; };
+		56178586D696D7E721D31D5855902393 /* ZFC_TableViewComplexConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFC_TableViewComplexConfig.h; path = ZFCChainedCreater/ZFC_TableViewComplexConfig.h; sourceTree = "<group>"; };
+		5D52EF67F27F4148E38FB7C99B98B116 /* ZFCChainedCreater-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZFCChainedCreater-prefix.pch"; sourceTree = "<group>"; };
+		5F293928AAD448F18219321FF9734A0E /* ZFCChainedCreater-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZFCChainedCreater-dummy.m"; sourceTree = "<group>"; };
+		6D229F86FC8C8D36126B9A500CA34F50 /* ZFC_CollectionChainedCreater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFC_CollectionChainedCreater.h; path = ZFCChainedCreater/ZFC_CollectionChainedCreater.h; sourceTree = "<group>"; };
+		6DBCF9EF4D88BEAD2C959504FB2460AC /* ZFC_TextFieldChainedCreater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFC_TextFieldChainedCreater.h; path = ZFCChainedCreater/ZFC_TextFieldChainedCreater.h; sourceTree = "<group>"; };
+		6EAFC5C3BAB4D9FA592D98962A4E78E1 /* ZFC_TableViewRowSuperComplexModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFC_TableViewRowSuperComplexModel.m; path = ZFCChainedCreater/ZFC_TableViewRowSuperComplexModel.m; sourceTree = "<group>"; };
+		707FF04A0EB13B7E59BA79574A0D15B7 /* ZFC_TableViewChainedInvokeCreater.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFC_TableViewChainedInvokeCreater.m; path = ZFCChainedCreater/ZFC_TableViewChainedInvokeCreater.m; sourceTree = "<group>"; };
+		77A96E43BF1F16DF6332E41583D2E2A3 /* Pods-ChainedDemo复杂tableView的抽离-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChainedDemo复杂tableView的抽离-acknowledgements.plist"; sourceTree = "<group>"; };
+		7C3AEB79573447D9E5FB2CCF9D97E125 /* ZFC_TableViewChainedCreater.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFC_TableViewChainedCreater.m; path = ZFCChainedCreater/ZFC_TableViewChainedCreater.m; sourceTree = "<group>"; };
+		807DDF95667DF821C6DC871CB8139A43 /* Pods-ChainedDemo链式调用TableView和CollectionView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChainedDemo链式调用TableView和CollectionView.release.xcconfig"; sourceTree = "<group>"; };
+		832908C786686D8A57EA1F1FD835BD91 /* UITableViewHeaderFooterView+ZFC_HeaderFooterComplexConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableViewHeaderFooterView+ZFC_HeaderFooterComplexConfig.m"; path = "ZFCChainedCreater/UITableViewHeaderFooterView+ZFC_HeaderFooterComplexConfig.m"; sourceTree = "<group>"; };
+		854B8685BFEC8E7DDE9CC7D46026BF04 /* ZFC_ButtonChainedCreater.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFC_ButtonChainedCreater.m; path = ZFCChainedCreater/ZFC_ButtonChainedCreater.m; sourceTree = "<group>"; };
+		867CEE4BB6AFDDBE14606E16CA8B0FC3 /* Pods-ChainedDemo链式调用TableView和CollectionView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChainedDemo链式调用TableView和CollectionView.debug.xcconfig"; sourceTree = "<group>"; };
+		8D165CC3A5411B9E8B85EF13DA45CDF8 /* ZFC_CollectionChainedInvokeConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFC_CollectionChainedInvokeConfig.h; path = ZFCChainedCreater/ZFC_CollectionChainedInvokeConfig.h; sourceTree = "<group>"; };
+		91EBDE05914893C0C79E947B339D29F5 /* UITableViewCell+ZFC_CellComplexConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableViewCell+ZFC_CellComplexConfig.h"; path = "ZFCChainedCreater/UITableViewCell+ZFC_CellComplexConfig.h"; sourceTree = "<group>"; };
+		933539F3CB07FADC04CB56935D4354D8 /* Pods-ChainedDemo复杂tableView的抽离.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChainedDemo复杂tableView的抽离.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DEFE99ED26C7DF31053D1AA6408B9EE /* libZFCChainedCreater.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libZFCChainedCreater.a; path = libZFCChainedCreater.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F9779992EEB818F47CA34B85653187F /* Pods-ChainedDemo链式调用TableView和CollectionView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChainedDemo链式调用TableView和CollectionView-dummy.m"; sourceTree = "<group>"; };
+		A01D7BBC847446F26D948C4B21709AB5 /* UICollectionView+ZFCChainedInvokeCreater.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionView+ZFCChainedInvokeCreater.m"; path = "ZFCChainedCreater/UICollectionView+ZFCChainedInvokeCreater.m"; sourceTree = "<group>"; };
+		A030CC2B8AD358B8FE35DC9ACD5D0EAD /* ZFC_ViewChainedCreater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFC_ViewChainedCreater.h; path = ZFCChainedCreater/ZFC_ViewChainedCreater.h; sourceTree = "<group>"; };
+		A781A02548F32EE35073C52000D3FA74 /* ZFC_ImageViewChainedCreater.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFC_ImageViewChainedCreater.m; path = ZFCChainedCreater/ZFC_ImageViewChainedCreater.m; sourceTree = "<group>"; };
+		A80CA8143AD98FC67631CE02C12F312B /* ZFC_TableViewComplexConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFC_TableViewComplexConfig.m; path = ZFCChainedCreater/ZFC_TableViewComplexConfig.m; sourceTree = "<group>"; };
+		ACA346C6EB34DCAED37BA7258FD92655 /* Pods-ChainedDemoUI控件链式创建-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChainedDemoUI控件链式创建-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AFEF8FF520460525D53A18F788EE2CBC /* ZFC_TextFieldChainedCreater.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFC_TextFieldChainedCreater.m; path = ZFCChainedCreater/ZFC_TextFieldChainedCreater.m; sourceTree = "<group>"; };
+		B033406D0E516271CF176ADC7500482A /* Pods-ChainedDemoUI控件链式创建-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChainedDemoUI控件链式创建-dummy.m"; sourceTree = "<group>"; };
+		B8462BA613C255466734F5EAB68AC3D2 /* ZFC_TableViewChainedInvokeConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFC_TableViewChainedInvokeConfig.h; path = ZFCChainedCreater/ZFC_TableViewChainedInvokeConfig.h; sourceTree = "<group>"; };
+		BF1503BF1A0F77237209C2B2B1D1D4BD /* ZFC_TableViewChainedCreater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFC_TableViewChainedCreater.h; path = ZFCChainedCreater/ZFC_TableViewChainedCreater.h; sourceTree = "<group>"; };
+		C14874CB0FA98F49802BD4D9FDF03815 /* ZFC_TextViewChainedCreater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFC_TextViewChainedCreater.h; path = ZFCChainedCreater/ZFC_TextViewChainedCreater.h; sourceTree = "<group>"; };
+		CABB9D0072B849F6B08104D03FC7077A /* Pods-ChainedDemo复杂tableView的抽离.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChainedDemo复杂tableView的抽离.release.xcconfig"; sourceTree = "<group>"; };
+		D3D68BF1D2BC7F7BF4705652D8C86DCB /* Pods-ChainedDemo复杂tableView的抽离-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChainedDemo复杂tableView的抽离-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D533F9C78EFBE7619FED39B073BC5E92 /* ZFC_ButtonChainedCreater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFC_ButtonChainedCreater.h; path = ZFCChainedCreater/ZFC_ButtonChainedCreater.h; sourceTree = "<group>"; };
+		DA7B4923216F8DC4CA4A16DA5C8EE8E5 /* ZFCChainedCreater.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZFCChainedCreater.xcconfig; sourceTree = "<group>"; };
+		ED471CC4FFBAE4410241D581E7A6B4F7 /* ZFC_LabelChainedCreater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFC_LabelChainedCreater.h; path = ZFCChainedCreater/ZFC_LabelChainedCreater.h; sourceTree = "<group>"; };
+		EFEDCFBAE10AC411C29F0F264FD23DC8 /* UICollectionView+ZFCChainedInvokeCreater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionView+ZFCChainedInvokeCreater.h"; path = "ZFCChainedCreater/UICollectionView+ZFCChainedInvokeCreater.h"; sourceTree = "<group>"; };
+		F79C624BBBCCAF645373B043468E2FC0 /* ZFC_CollectionViewChainnedInvokeCreater.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFC_CollectionViewChainnedInvokeCreater.m; path = ZFCChainedCreater/ZFC_CollectionViewChainnedInvokeCreater.m; sourceTree = "<group>"; };
+		FC9C22E9616713DC25E04E2FDC3747D3 /* Pods-ChainedDemo链式调用TableView和CollectionView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChainedDemo链式调用TableView和CollectionView-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FF8251E6EAA0F8BAD6B312AE08054B65 /* ZFC_ViewChainedCreater.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFC_ViewChainedCreater.m; path = ZFCChainedCreater/ZFC_ViewChainedCreater.m; sourceTree = "<group>"; };
+		FFE312062FD85EADC0848B322557A94A /* ZFC_LabelChainedCreater.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFC_LabelChainedCreater.m; path = ZFCChainedCreater/ZFC_LabelChainedCreater.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53166CEDBB90892BB799C79936D8C519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7028CE50556910D10600B2CD7841BE0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B9A3041D9C85D97735DB8566EFBCF1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0A82FF7EAEF4535BEDA0126153FBD84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04BE5AE1021FFCF28F1A9D9CD47D58F9 /* Pods-ChainedDemo复杂tableView的抽离 */ = {
+			isa = PBXGroup;
+			children = (
+				D3D68BF1D2BC7F7BF4705652D8C86DCB /* Pods-ChainedDemo复杂tableView的抽离-acknowledgements.markdown */,
+				77A96E43BF1F16DF6332E41583D2E2A3 /* Pods-ChainedDemo复杂tableView的抽离-acknowledgements.plist */,
+				22943449D5D7E02128CCAA9FE149F37D /* Pods-ChainedDemo复杂tableView的抽离-dummy.m */,
+				933539F3CB07FADC04CB56935D4354D8 /* Pods-ChainedDemo复杂tableView的抽离.debug.xcconfig */,
+				CABB9D0072B849F6B08104D03FC7077A /* Pods-ChainedDemo复杂tableView的抽离.release.xcconfig */,
+			);
+			name = "Pods-ChainedDemo复杂tableView的抽离";
+			path = "Target Support Files/Pods-ChainedDemo复杂tableView的抽离";
+			sourceTree = "<group>";
+		};
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27FAF5C819411D50FB08203F54EF7FA9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				456D884812120892C26A5BD413A9AA6C /* Pods-ChainedDemoUI控件链式创建 */,
+				04BE5AE1021FFCF28F1A9D9CD47D58F9 /* Pods-ChainedDemo复杂tableView的抽离 */,
+				9EC9D76824E75DFA5D861A2676A3D1BD /* Pods-ChainedDemo链式调用TableView和CollectionView */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		31E9E8D09801CEA2F0F4F2C58BD1277D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41FE329013BDA2D0C074D122CC313A49 /* ZFCChainedCreater */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		41FE329013BDA2D0C074D122CC313A49 /* ZFCChainedCreater */ = {
+			isa = PBXGroup;
+			children = (
+				EFEDCFBAE10AC411C29F0F264FD23DC8 /* UICollectionView+ZFCChainedInvokeCreater.h */,
+				A01D7BBC847446F26D948C4B21709AB5 /* UICollectionView+ZFCChainedInvokeCreater.m */,
+				00FE81AA70631AEA7CB639B225FA2FB7 /* UITableView+ZFC_ChainedInvokeCreater.h */,
+				3B7C925F93C274024AD98ECAAFB51AD1 /* UITableView+ZFC_ChainedInvokeCreater.m */,
+				91EBDE05914893C0C79E947B339D29F5 /* UITableViewCell+ZFC_CellComplexConfig.h */,
+				4B66D8082076F6313F53D1CD9F07B79E /* UITableViewCell+ZFC_CellComplexConfig.m */,
+				2C7AF66DCB3EB98AC0962F135850B996 /* UITableViewHeaderFooterView+ZFC_HeaderFooterComplexConfig.h */,
+				832908C786686D8A57EA1F1FD835BD91 /* UITableViewHeaderFooterView+ZFC_HeaderFooterComplexConfig.m */,
+				D533F9C78EFBE7619FED39B073BC5E92 /* ZFC_ButtonChainedCreater.h */,
+				854B8685BFEC8E7DDE9CC7D46026BF04 /* ZFC_ButtonChainedCreater.m */,
+				2C2DAAAEE39B98153E15DA0AB18A8338 /* ZFC_ChainedCreaterHeader.h */,
+				6D229F86FC8C8D36126B9A500CA34F50 /* ZFC_CollectionChainedCreater.h */,
+				35CCEAB9919693A5AD3553FC229F5C52 /* ZFC_CollectionChainedCreater.m */,
+				8D165CC3A5411B9E8B85EF13DA45CDF8 /* ZFC_CollectionChainedInvokeConfig.h */,
+				076B83F77D3EBCAC8594C7BEBABF3EF2 /* ZFC_CollectionChainedInvokeConfig.m */,
+				4F00C5C0C121E66871903A09E02B9DFB /* ZFC_CollectionViewChainnedInvokeCreater.h */,
+				F79C624BBBCCAF645373B043468E2FC0 /* ZFC_CollectionViewChainnedInvokeCreater.m */,
+				264E0E9ACB2591945ED8927D7F20BF8E /* ZFC_ImageViewChainedCreater.h */,
+				A781A02548F32EE35073C52000D3FA74 /* ZFC_ImageViewChainedCreater.m */,
+				ED471CC4FFBAE4410241D581E7A6B4F7 /* ZFC_LabelChainedCreater.h */,
+				FFE312062FD85EADC0848B322557A94A /* ZFC_LabelChainedCreater.m */,
+				BF1503BF1A0F77237209C2B2B1D1D4BD /* ZFC_TableViewChainedCreater.h */,
+				7C3AEB79573447D9E5FB2CCF9D97E125 /* ZFC_TableViewChainedCreater.m */,
+				B8462BA613C255466734F5EAB68AC3D2 /* ZFC_TableViewChainedInvokeConfig.h */,
+				13E05FCF0F154E242FD0ADD7E9DF23EC /* ZFC_TableViewChainedInvokeConfig.m */,
+				3D6936353513EAE3A546E211D233587F /* ZFC_TableViewChainedInvokeCreater.h */,
+				707FF04A0EB13B7E59BA79574A0D15B7 /* ZFC_TableViewChainedInvokeCreater.m */,
+				56178586D696D7E721D31D5855902393 /* ZFC_TableViewComplexConfig.h */,
+				A80CA8143AD98FC67631CE02C12F312B /* ZFC_TableViewComplexConfig.m */,
+				023E1DF8C5DA6693EBAA82BF16E2DEAD /* ZFC_TableViewRowSuperComplexModel.h */,
+				6EAFC5C3BAB4D9FA592D98962A4E78E1 /* ZFC_TableViewRowSuperComplexModel.m */,
+				3054BE25168FF0DBC594D9640AD57CBF /* ZFC_TableViewSectionSuperComplexModel.h */,
+				50B0ED2A37BC0828A83C844DB7F6E80E /* ZFC_TableViewSectionSuperComplexModel.m */,
+				6DBCF9EF4D88BEAD2C959504FB2460AC /* ZFC_TextFieldChainedCreater.h */,
+				AFEF8FF520460525D53A18F788EE2CBC /* ZFC_TextFieldChainedCreater.m */,
+				C14874CB0FA98F49802BD4D9FDF03815 /* ZFC_TextViewChainedCreater.h */,
+				4281114B146BD80C19D156B14321669C /* ZFC_TextViewChainedCreater.m */,
+				A030CC2B8AD358B8FE35DC9ACD5D0EAD /* ZFC_ViewChainedCreater.h */,
+				FF8251E6EAA0F8BAD6B312AE08054B65 /* ZFC_ViewChainedCreater.m */,
+				AF63594A6272A238EEDE2CEFCE777C2A /* Support Files */,
+			);
+			name = ZFCChainedCreater;
+			path = ZFCChainedCreater;
+			sourceTree = "<group>";
+		};
+		456D884812120892C26A5BD413A9AA6C /* Pods-ChainedDemoUI控件链式创建 */ = {
+			isa = PBXGroup;
+			children = (
+				ACA346C6EB34DCAED37BA7258FD92655 /* Pods-ChainedDemoUI控件链式创建-acknowledgements.markdown */,
+				3F239A4ABBD955016F2106A03885E91B /* Pods-ChainedDemoUI控件链式创建-acknowledgements.plist */,
+				B033406D0E516271CF176ADC7500482A /* Pods-ChainedDemoUI控件链式创建-dummy.m */,
+				356216F6D5F3CD3D27C21EB3C9C4AE5F /* Pods-ChainedDemoUI控件链式创建.debug.xcconfig */,
+				1B2ABC1866D148ACF97CB8CC4E8877EF /* Pods-ChainedDemoUI控件链式创建.release.xcconfig */,
+			);
+			name = "Pods-ChainedDemoUI控件链式创建";
+			path = "Target Support Files/Pods-ChainedDemoUI控件链式创建";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				31E9E8D09801CEA2F0F4F2C58BD1277D /* Pods */,
+				8D21750C11226F08B514493C8C072F4E /* Products */,
+				27FAF5C819411D50FB08203F54EF7FA9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8D21750C11226F08B514493C8C072F4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F3B7F39844998BE91225DEC8EE449A0 /* libPods-ChainedDemoUI控件链式创建.a */,
+				443D15AF6B94011FF07AE7D4E0D7F354 /* libPods-ChainedDemo复杂tableView的抽离.a */,
+				2650FB3CCF08661CD367AE6C784FF04C /* libPods-ChainedDemo链式调用TableView和CollectionView.a */,
+				9DEFE99ED26C7DF31053D1AA6408B9EE /* libZFCChainedCreater.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9EC9D76824E75DFA5D861A2676A3D1BD /* Pods-ChainedDemo链式调用TableView和CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				FC9C22E9616713DC25E04E2FDC3747D3 /* Pods-ChainedDemo链式调用TableView和CollectionView-acknowledgements.markdown */,
+				1EAF95ACEFDB399A36F16C9260851444 /* Pods-ChainedDemo链式调用TableView和CollectionView-acknowledgements.plist */,
+				9F9779992EEB818F47CA34B85653187F /* Pods-ChainedDemo链式调用TableView和CollectionView-dummy.m */,
+				867CEE4BB6AFDDBE14606E16CA8B0FC3 /* Pods-ChainedDemo链式调用TableView和CollectionView.debug.xcconfig */,
+				807DDF95667DF821C6DC871CB8139A43 /* Pods-ChainedDemo链式调用TableView和CollectionView.release.xcconfig */,
+			);
+			name = "Pods-ChainedDemo链式调用TableView和CollectionView";
+			path = "Target Support Files/Pods-ChainedDemo链式调用TableView和CollectionView";
+			sourceTree = "<group>";
+		};
+		AF63594A6272A238EEDE2CEFCE777C2A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA7B4923216F8DC4CA4A16DA5C8EE8E5 /* ZFCChainedCreater.xcconfig */,
+				5F293928AAD448F18219321FF9734A0E /* ZFCChainedCreater-dummy.m */,
+				5D52EF67F27F4148E38FB7C99B98B116 /* ZFCChainedCreater-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZFCChainedCreater";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		12471F3C26CBCAAD3C4C62BD164E939E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D0A00CF4C7F787454D00DB01C63B93F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91DCD32F2075424A54A048FC3B6D9E2A /* UICollectionView+ZFCChainedInvokeCreater.h in Headers */,
+				F65BE2D162AE132C738FCE621198DE0E /* UITableView+ZFC_ChainedInvokeCreater.h in Headers */,
+				232A2BF517259C7C7F1DA11F3BBFBA0F /* UITableViewCell+ZFC_CellComplexConfig.h in Headers */,
+				8EA599A94DFE417AA8CCEC1C6EBEFA39 /* UITableViewHeaderFooterView+ZFC_HeaderFooterComplexConfig.h in Headers */,
+				4267A7FE942669570871643C3977762F /* ZFC_ButtonChainedCreater.h in Headers */,
+				2AB9857C4508D82BA5BBB96CB46A71BC /* ZFC_ChainedCreaterHeader.h in Headers */,
+				CE75240C2CA879126752A31E4996EB35 /* ZFC_CollectionChainedCreater.h in Headers */,
+				C0542EA6207CCFEA85321DCF46C9DC03 /* ZFC_CollectionChainedInvokeConfig.h in Headers */,
+				425671532AC6B2D7C5B1316CCE61CAF0 /* ZFC_CollectionViewChainnedInvokeCreater.h in Headers */,
+				5555AA8F4B010E91254E1BEE694F3158 /* ZFC_ImageViewChainedCreater.h in Headers */,
+				F6FC8CCB0AEC72AF2B379F2073FCBA93 /* ZFC_LabelChainedCreater.h in Headers */,
+				56CC85BE462540390E73320062FD9057 /* ZFC_TableViewChainedCreater.h in Headers */,
+				0D4042EB3F2EA8861448E07016705E95 /* ZFC_TableViewChainedInvokeConfig.h in Headers */,
+				D87CEA3A789DBF863A2C6568BF9B76CB /* ZFC_TableViewChainedInvokeCreater.h in Headers */,
+				C1EEBF3957A0E7BC4BF814EA2026182F /* ZFC_TableViewComplexConfig.h in Headers */,
+				3A8D6484C6166568A6ED256F5FC259BE /* ZFC_TableViewRowSuperComplexModel.h in Headers */,
+				AC7427281F29BD50CF079C117109DF41 /* ZFC_TableViewSectionSuperComplexModel.h in Headers */,
+				FE02A9F5C1AC8042CE8D0EFD53D056A8 /* ZFC_TextFieldChainedCreater.h in Headers */,
+				12F50A18E53DAAA189514C7F0978C9D9 /* ZFC_TextViewChainedCreater.h in Headers */,
+				48673FD05C1985792E9BD23C84519B83 /* ZFC_ViewChainedCreater.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		778CF695F7CB52AA154CE67308777A00 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A6255ECCD073A73F412C1C85425E250 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0AE88EE62F5B84C30F7248CF4AB0B38D /* Pods-ChainedDemoUI控件链式创建 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 520973E5F51B5D990E60C579F53EA053 /* Build configuration list for PBXNativeTarget "Pods-ChainedDemoUI控件链式创建" */;
+			buildPhases = (
+				8A6255ECCD073A73F412C1C85425E250 /* Headers */,
+				73FF95F55734BBC0998AB65F2C5EF737 /* Sources */,
+				7028CE50556910D10600B2CD7841BE0D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EE9D1EAEC311F2E448B69280F1DF106 /* PBXTargetDependency */,
+			);
+			name = "Pods-ChainedDemoUI控件链式创建";
+			productName = "Pods-ChainedDemoUI控件链式创建";
+			productReference = 0F3B7F39844998BE91225DEC8EE449A0 /* libPods-ChainedDemoUI控件链式创建.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B2D5308AB9E395280503F7A8A5F4153F /* ZFCChainedCreater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E5EC9E43FD6EA7AB54450869AEAD97E /* Build configuration list for PBXNativeTarget "ZFCChainedCreater" */;
+			buildPhases = (
+				1D0A00CF4C7F787454D00DB01C63B93F /* Headers */,
+				3EFB870797881E08ADB4B3267539FBE4 /* Sources */,
+				9B9A3041D9C85D97735DB8566EFBCF1E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZFCChainedCreater;
+			productName = ZFCChainedCreater;
+			productReference = 9DEFE99ED26C7DF31053D1AA6408B9EE /* libZFCChainedCreater.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B6739BC034798433574EC45211150487 /* Pods-ChainedDemo复杂tableView的抽离 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2137385C320139DD7C548BE6E89FA94 /* Build configuration list for PBXNativeTarget "Pods-ChainedDemo复杂tableView的抽离" */;
+			buildPhases = (
+				12471F3C26CBCAAD3C4C62BD164E939E /* Headers */,
+				98232F6DE6142E7A3B83315EA4FFA6F4 /* Sources */,
+				53166CEDBB90892BB799C79936D8C519 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0236F2E6E445F82173748938F42A03DB /* PBXTargetDependency */,
+			);
+			name = "Pods-ChainedDemo复杂tableView的抽离";
+			productName = "Pods-ChainedDemo复杂tableView的抽离";
+			productReference = 443D15AF6B94011FF07AE7D4E0D7F354 /* libPods-ChainedDemo复杂tableView的抽离.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C0354CD641EF831FEB9596DCE71B7215 /* Pods-ChainedDemo链式调用TableView和CollectionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9A2A576539F4AFB401FDB077695C52D /* Build configuration list for PBXNativeTarget "Pods-ChainedDemo链式调用TableView和CollectionView" */;
+			buildPhases = (
+				778CF695F7CB52AA154CE67308777A00 /* Headers */,
+				F8C47185EDF00486CEE6C5BF50426BFF /* Sources */,
+				F0A82FF7EAEF4535BEDA0126153FBD84 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FCD0EE1967DEB6609FC940D4805EA39 /* PBXTargetDependency */,
+			);
+			name = "Pods-ChainedDemo链式调用TableView和CollectionView";
+			productName = "Pods-ChainedDemo链式调用TableView和CollectionView";
+			productReference = 2650FB3CCF08661CD367AE6C784FF04C /* libPods-ChainedDemo链式调用TableView和CollectionView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8D21750C11226F08B514493C8C072F4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AE88EE62F5B84C30F7248CF4AB0B38D /* Pods-ChainedDemoUI控件链式创建 */,
+				B6739BC034798433574EC45211150487 /* Pods-ChainedDemo复杂tableView的抽离 */,
+				C0354CD641EF831FEB9596DCE71B7215 /* Pods-ChainedDemo链式调用TableView和CollectionView */,
+				B2D5308AB9E395280503F7A8A5F4153F /* ZFCChainedCreater */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EFB870797881E08ADB4B3267539FBE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				319E2514B15B6E4545A1D731167C8B71 /* UICollectionView+ZFCChainedInvokeCreater.m in Sources */,
+				8FC292825AA2EFDF22D8D443F411D2ED /* UITableView+ZFC_ChainedInvokeCreater.m in Sources */,
+				BA1CA738DF734EC1F856DEF4089C2FA0 /* UITableViewCell+ZFC_CellComplexConfig.m in Sources */,
+				169FBFBA98D17A9340FABA65C34D3643 /* UITableViewHeaderFooterView+ZFC_HeaderFooterComplexConfig.m in Sources */,
+				D8475D1E312879C7FF679246D5CC1F22 /* ZFC_ButtonChainedCreater.m in Sources */,
+				94AD93A46F3DF5D27C872E3559042F7A /* ZFC_CollectionChainedCreater.m in Sources */,
+				81E68C4558421D69BD06B7FE7C39CED7 /* ZFC_CollectionChainedInvokeConfig.m in Sources */,
+				590E5AF59C6412154F36DD139E9A039D /* ZFC_CollectionViewChainnedInvokeCreater.m in Sources */,
+				96A00477519976828D62130F920DCD5E /* ZFC_ImageViewChainedCreater.m in Sources */,
+				9E85BAEBFDF3C40DE4E6E70C87976D34 /* ZFC_LabelChainedCreater.m in Sources */,
+				F6487CA64825361DDA57FD2689FC0362 /* ZFC_TableViewChainedCreater.m in Sources */,
+				B6F423BB403D195CE0E21F2CB5F4145F /* ZFC_TableViewChainedInvokeConfig.m in Sources */,
+				1A13DA43C74454E3E5DE8BFEB3092DDB /* ZFC_TableViewChainedInvokeCreater.m in Sources */,
+				246989BCA103BE9405390D2B4C2CD661 /* ZFC_TableViewComplexConfig.m in Sources */,
+				48D92E9785281EED3B8E56FCEF72D04E /* ZFC_TableViewRowSuperComplexModel.m in Sources */,
+				32D9E9D506F385DBC63AC28FB0027DA0 /* ZFC_TableViewSectionSuperComplexModel.m in Sources */,
+				CF7C8B1F1AA29DD2713513A8458ABE5C /* ZFC_TextFieldChainedCreater.m in Sources */,
+				95A6685D2D553ABF6F228BC9192F42A3 /* ZFC_TextViewChainedCreater.m in Sources */,
+				49AC84450D92B86E6D221DB8B2DF6974 /* ZFC_ViewChainedCreater.m in Sources */,
+				FD561D16D8FE6038E5DDBC9F2594D52F /* ZFCChainedCreater-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73FF95F55734BBC0998AB65F2C5EF737 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				771A819BAD8C29EE19B9821EA6CBB09C /* Pods-ChainedDemoUI控件链式创建-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98232F6DE6142E7A3B83315EA4FFA6F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0D31E86BAE6248047C22BD7B0159A8 /* Pods-ChainedDemo复杂tableView的抽离-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8C47185EDF00486CEE6C5BF50426BFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C91FB5F2FB82EF6081656FAC32B62CA /* Pods-ChainedDemo链式调用TableView和CollectionView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0236F2E6E445F82173748938F42A03DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZFCChainedCreater;
+			target = B2D5308AB9E395280503F7A8A5F4153F /* ZFCChainedCreater */;
+			targetProxy = D88697C8F48B6025077EF4A48EC6F5FD /* PBXContainerItemProxy */;
+		};
+		1FCD0EE1967DEB6609FC940D4805EA39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZFCChainedCreater;
+			target = B2D5308AB9E395280503F7A8A5F4153F /* ZFCChainedCreater */;
+			targetProxy = 739BBB3741F7B7DCBCB4C52C2EA28375 /* PBXContainerItemProxy */;
+		};
+		2EE9D1EAEC311F2E448B69280F1DF106 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZFCChainedCreater;
+			target = B2D5308AB9E395280503F7A8A5F4153F /* ZFCChainedCreater */;
+			targetProxy = 4F30916B6A96B4CC55A197C7878EC222 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A6FA9F331CA9F62DD184292D771DAC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CABB9D0072B849F6B08104D03FC7077A /* Pods-ChainedDemo复杂tableView的抽离.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2147D50A1B196C5C320584E65367405B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 356216F6D5F3CD3D27C21EB3C9C4AE5F /* Pods-ChainedDemoUI控件链式创建.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F3F300387EDF2410B989789F5E54EA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 867CEE4BB6AFDDBE14606E16CA8B0FC3 /* Pods-ChainedDemo链式调用TableView和CollectionView.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		645E58CC549B005386E7FD074F121FD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA7B4923216F8DC4CA4A16DA5C8EE8E5 /* ZFCChainedCreater.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ZFCChainedCreater/ZFCChainedCreater-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ZFCChainedCreater;
+				PRODUCT_NAME = ZFCChainedCreater;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78EA7E2EEF4814AE1C77B33CF879BE1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B2ABC1866D148ACF97CB8CC4E8877EF /* Pods-ChainedDemoUI控件链式创建.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96434B6C8FF320C976A10DAD7174A4BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A3EA0499BA429FEF391C415BB511CD99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 807DDF95667DF821C6DC871CB8139A43 /* Pods-ChainedDemo链式调用TableView和CollectionView.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7F24D46734F6B6CE8F63011359215DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA7B4923216F8DC4CA4A16DA5C8EE8E5 /* ZFCChainedCreater.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ZFCChainedCreater/ZFCChainedCreater-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ZFCChainedCreater;
+				PRODUCT_NAME = ZFCChainedCreater;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D11C82AF2204B41B80412B8DC9C1D652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D8F3C48A8E6C7EE5911B7BBA7241AB68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 933539F3CB07FADC04CB56935D4354D8 /* Pods-ChainedDemo复杂tableView的抽离.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E5EC9E43FD6EA7AB54450869AEAD97E /* Build configuration list for PBXNativeTarget "ZFCChainedCreater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				645E58CC549B005386E7FD074F121FD9 /* Debug */,
+				C7F24D46734F6B6CE8F63011359215DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D11C82AF2204B41B80412B8DC9C1D652 /* Debug */,
+				96434B6C8FF320C976A10DAD7174A4BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		520973E5F51B5D990E60C579F53EA053 /* Build configuration list for PBXNativeTarget "Pods-ChainedDemoUI控件链式创建" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2147D50A1B196C5C320584E65367405B /* Debug */,
+				78EA7E2EEF4814AE1C77B33CF879BE1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2137385C320139DD7C548BE6E89FA94 /* Build configuration list for PBXNativeTarget "Pods-ChainedDemo复杂tableView的抽离" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8F3C48A8E6C7EE5911B7BBA7241AB68 /* Debug */,
+				1A6FA9F331CA9F62DD184292D771DAC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9A2A576539F4AFB401FDB077695C52D /* Build configuration list for PBXNativeTarget "Pods-ChainedDemo链式调用TableView和CollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F3F300387EDF2410B989789F5E54EA4 /* Debug */,
+				A3EA0499BA429FEF391C415BB511CD99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
