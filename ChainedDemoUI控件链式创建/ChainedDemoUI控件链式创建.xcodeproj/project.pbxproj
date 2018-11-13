@@ -37,19 +37,6 @@
 		043D1FC721996C7800AB925D /* TestCollectionViewHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D1FC021996C7800AB925D /* TestCollectionViewHeaderFooterView.m */; };
 		043D1FC821996C7800AB925D /* TestTableViewHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D1FC221996C7800AB925D /* TestTableViewHeaderFooterView.m */; };
 		043D1FC921996C7800AB925D /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 043D1FC321996C7800AB925D /* test.jpg */; };
-		043D1FE221996C9C00AB925D /* ZFC_TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D1FCC21996C9C00AB925D /* ZFC_TableViewCell.m */; };
-		043D1FE321996C9C00AB925D /* ZFC_TableViewCell_XIB.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D1FCE21996C9C00AB925D /* ZFC_TableViewCell_XIB.m */; };
-		043D1FE421996C9C00AB925D /* ZFC_TableViewCell_XIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043D1FCF21996C9C00AB925D /* ZFC_TableViewCell_XIB.xib */; };
-		043D1FE521996C9C00AB925D /* ZFC_TableViewHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D1FD121996C9C00AB925D /* ZFC_TableViewHeaderFooterView.m */; };
-		043D1FE621996C9C00AB925D /* ZFC_TableViewHeaderFooterView_XIB.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D1FD321996C9C00AB925D /* ZFC_TableViewHeaderFooterView_XIB.m */; };
-		043D1FE721996C9C00AB925D /* ZFC_TableViewHeaderFooterView_XIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043D1FD421996C9C00AB925D /* ZFC_TableViewHeaderFooterView_XIB.xib */; };
-		043D1FE821996C9C00AB925D /* ZFC_CollectionHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D1FD821996C9C00AB925D /* ZFC_CollectionHeaderFooterView.m */; };
-		043D1FE921996C9C00AB925D /* ZFC_CollectionHeaderFooterView_XIB.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D1FDA21996C9C00AB925D /* ZFC_CollectionHeaderFooterView_XIB.m */; };
-		043D1FEA21996C9C00AB925D /* ZFC_CollectionHeaderFooterView_XIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043D1FDB21996C9C00AB925D /* ZFC_CollectionHeaderFooterView_XIB.xib */; };
-		043D1FEB21996C9C00AB925D /* ZFC_CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D1FDD21996C9C00AB925D /* ZFC_CollectionViewCell.m */; };
-		043D1FEC21996C9C00AB925D /* ZFC_CollectionViewCell_XIB.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D1FDF21996C9C00AB925D /* ZFC_CollectionViewCell_XIB.m */; };
-		043D1FED21996C9C00AB925D /* ZFC_CollectionViewCell_XIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043D1FE021996C9C00AB925D /* ZFC_CollectionViewCell_XIB.xib */; };
-		043D1FEE21996C9C00AB925D /* ZFC_TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D1FE121996C9C00AB925D /* ZFC_TestViewController.m */; };
 		043D200B21996CBB00AB925D /* ZFCTestRowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D1FF121996CBB00AB925D /* ZFCTestRowModel.m */; };
 		043D200C21996CBB00AB925D /* ZFCTestSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D1FF321996CBB00AB925D /* ZFCTestSectionModel.m */; };
 		043D200D21996CBB00AB925D /* ZFCSecondTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D1FF721996CBB00AB925D /* ZFCSecondTableViewCell.m */; };
@@ -65,6 +52,19 @@
 		043D201721996CBB00AB925D /* ZFCThirdTableViewCell_XIB.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D200821996CBB00AB925D /* ZFCThirdTableViewCell_XIB.m */; };
 		043D201821996CBB00AB925D /* ZFCThirdTableViewCell_XIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043D200921996CBB00AB925D /* ZFCThirdTableViewCell_XIB.xib */; };
 		043D201921996CBB00AB925D /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D200A21996CBB00AB925D /* TestViewController.m */; };
+		043EFE62219A5D54004548C1 /* ZFC_TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043EFE60219A5D54004548C1 /* ZFC_TestViewController.m */; };
+		043EFE7E219A5DA1004548C1 /* ZFC_CollectionHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 043EFE6A219A5DA1004548C1 /* ZFC_CollectionHeaderFooterView.m */; };
+		043EFE7F219A5DA1004548C1 /* ZFC_CollectionHeaderFooterView_XIB.m in Sources */ = {isa = PBXBuildFile; fileRef = 043EFE6C219A5DA1004548C1 /* ZFC_CollectionHeaderFooterView_XIB.m */; };
+		043EFE80219A5DA1004548C1 /* ZFC_CollectionHeaderFooterView_XIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043EFE6D219A5DA1004548C1 /* ZFC_CollectionHeaderFooterView_XIB.xib */; };
+		043EFE81219A5DA1004548C1 /* ZFC_CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 043EFE6F219A5DA1004548C1 /* ZFC_CollectionViewCell.m */; };
+		043EFE82219A5DA1004548C1 /* ZFC_CollectionViewCell_XIB.m in Sources */ = {isa = PBXBuildFile; fileRef = 043EFE71219A5DA1004548C1 /* ZFC_CollectionViewCell_XIB.m */; };
+		043EFE83219A5DA1004548C1 /* ZFC_CollectionViewCell_XIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043EFE72219A5DA1004548C1 /* ZFC_CollectionViewCell_XIB.xib */; };
+		043EFE84219A5DA1004548C1 /* ZFC_TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 043EFE75219A5DA1004548C1 /* ZFC_TableViewCell.m */; };
+		043EFE85219A5DA1004548C1 /* ZFC_TableViewCell_XIB.m in Sources */ = {isa = PBXBuildFile; fileRef = 043EFE77219A5DA1004548C1 /* ZFC_TableViewCell_XIB.m */; };
+		043EFE86219A5DA1004548C1 /* ZFC_TableViewCell_XIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043EFE78219A5DA1004548C1 /* ZFC_TableViewCell_XIB.xib */; };
+		043EFE87219A5DA1004548C1 /* ZFC_TableViewHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 043EFE7A219A5DA1004548C1 /* ZFC_TableViewHeaderFooterView.m */; };
+		043EFE88219A5DA1004548C1 /* ZFC_TableViewHeaderFooterView_XIB.m in Sources */ = {isa = PBXBuildFile; fileRef = 043EFE7C219A5DA1004548C1 /* ZFC_TableViewHeaderFooterView_XIB.m */; };
+		043EFE89219A5DA1004548C1 /* ZFC_TableViewHeaderFooterView_XIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043EFE7D219A5DA1004548C1 /* ZFC_TableViewHeaderFooterView_XIB.xib */; };
 		23ED262870EE3DD508F8A17C /* libPods-ChainedDemo链式调用TableView和CollectionView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D12BA59C5C43015A138581C3 /* libPods-ChainedDemo链式调用TableView和CollectionView.a */; };
 		34052F19E3368620A858DA75 /* libPods-ChainedDemoUI控件链式创建.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A477E7B5AB9FEBA6277CF6B3 /* libPods-ChainedDemoUI控件链式创建.a */; };
 		B2633368959C2295EAF04E9D /* libPods-ChainedDemo复杂tableView的抽离.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 925F464E2608FC1FBD1F3FA0 /* libPods-ChainedDemo复杂tableView的抽离.a */; };
@@ -127,10 +127,10 @@
 		043D1F2721996C0C00AB925D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		043D1F2821996C0C00AB925D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		043D1F2E21996C0C00AB925D /* ChainedDemoUI控件链式创建Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ChainedDemoUI控件链式创建Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		043D1F3221996C0C00AB925D /* ChainedDemoUI______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChainedDemoUI______Tests.m; sourceTree = "<group>"; };
+		043D1F3221996C0C00AB925D /* ChainedDemoUI______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ChainedDemoUI______Tests.m"; sourceTree = "<group>"; };
 		043D1F3421996C0C00AB925D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		043D1F3921996C0C00AB925D /* ChainedDemoUI控件链式创建UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ChainedDemoUI控件链式创建UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		043D1F3D21996C0C00AB925D /* ChainedDemoUI______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChainedDemoUI______UITests.m; sourceTree = "<group>"; };
+		043D1F3D21996C0C00AB925D /* ChainedDemoUI______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ChainedDemoUI______UITests.m"; sourceTree = "<group>"; };
 		043D1F3F21996C0C00AB925D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		043D1F4F21996C4E00AB925D /* ChainedDemo链式调用TableView和CollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChainedDemo链式调用TableView和CollectionView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		043D1F5121996C4E00AB925D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -143,10 +143,10 @@
 		043D1F5F21996C4F00AB925D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		043D1F6021996C4F00AB925D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		043D1F6621996C4F00AB925D /* ChainedDemo链式调用TableView和CollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ChainedDemo链式调用TableView和CollectionViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		043D1F6A21996C4F00AB925D /* ChainedDemo____TableView_CollectionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChainedDemo____TableView_CollectionViewTests.m; sourceTree = "<group>"; };
+		043D1F6A21996C4F00AB925D /* ChainedDemo____TableView_CollectionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ChainedDemo____TableView_CollectionViewTests.m"; sourceTree = "<group>"; };
 		043D1F6C21996C4F00AB925D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		043D1F7121996C4F00AB925D /* ChainedDemo链式调用TableView和CollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ChainedDemo链式调用TableView和CollectionViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		043D1F7521996C4F00AB925D /* ChainedDemo____TableView_CollectionViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChainedDemo____TableView_CollectionViewUITests.m; sourceTree = "<group>"; };
+		043D1F7521996C4F00AB925D /* ChainedDemo____TableView_CollectionViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ChainedDemo____TableView_CollectionViewUITests.m"; sourceTree = "<group>"; };
 		043D1F7721996C4F00AB925D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		043D1F8521996C5D00AB925D /* ChainedDemo复杂tableView的抽离.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChainedDemo复杂tableView的抽离.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		043D1F8721996C5D00AB925D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -159,10 +159,10 @@
 		043D1F9521996C5E00AB925D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		043D1F9621996C5E00AB925D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		043D1F9C21996C5E00AB925D /* ChainedDemo复杂tableView的抽离Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ChainedDemo复杂tableView的抽离Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		043D1FA021996C5E00AB925D /* ChainedDemo__tableView___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChainedDemo__tableView___Tests.m; sourceTree = "<group>"; };
+		043D1FA021996C5E00AB925D /* ChainedDemo__tableView___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ChainedDemo__tableView___Tests.m"; sourceTree = "<group>"; };
 		043D1FA221996C5E00AB925D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		043D1FA721996C5E00AB925D /* ChainedDemo复杂tableView的抽离UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ChainedDemo复杂tableView的抽离UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		043D1FAB21996C5E00AB925D /* ChainedDemo__tableView___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChainedDemo__tableView___UITests.m; sourceTree = "<group>"; };
+		043D1FAB21996C5E00AB925D /* ChainedDemo__tableView___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ChainedDemo__tableView___UITests.m"; sourceTree = "<group>"; };
 		043D1FAD21996C5E00AB925D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		043D1FB821996C7700AB925D /* TestChainedCreate_CollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestChainedCreate_CollectionView.h; sourceTree = "<group>"; };
 		043D1FB921996C7700AB925D /* TestChainedCreate_CollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestChainedCreate_CollectionView.m; sourceTree = "<group>"; };
@@ -175,28 +175,6 @@
 		043D1FC121996C7800AB925D /* TestTableViewHeaderFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewHeaderFooterView.h; sourceTree = "<group>"; };
 		043D1FC221996C7800AB925D /* TestTableViewHeaderFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewHeaderFooterView.m; sourceTree = "<group>"; };
 		043D1FC321996C7800AB925D /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
-		043D1FCB21996C9C00AB925D /* ZFC_TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFC_TableViewCell.h; sourceTree = "<group>"; };
-		043D1FCC21996C9C00AB925D /* ZFC_TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFC_TableViewCell.m; sourceTree = "<group>"; };
-		043D1FCD21996C9C00AB925D /* ZFC_TableViewCell_XIB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFC_TableViewCell_XIB.h; sourceTree = "<group>"; };
-		043D1FCE21996C9C00AB925D /* ZFC_TableViewCell_XIB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFC_TableViewCell_XIB.m; sourceTree = "<group>"; };
-		043D1FCF21996C9C00AB925D /* ZFC_TableViewCell_XIB.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZFC_TableViewCell_XIB.xib; sourceTree = "<group>"; };
-		043D1FD021996C9C00AB925D /* ZFC_TableViewHeaderFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFC_TableViewHeaderFooterView.h; sourceTree = "<group>"; };
-		043D1FD121996C9C00AB925D /* ZFC_TableViewHeaderFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFC_TableViewHeaderFooterView.m; sourceTree = "<group>"; };
-		043D1FD221996C9C00AB925D /* ZFC_TableViewHeaderFooterView_XIB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFC_TableViewHeaderFooterView_XIB.h; sourceTree = "<group>"; };
-		043D1FD321996C9C00AB925D /* ZFC_TableViewHeaderFooterView_XIB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFC_TableViewHeaderFooterView_XIB.m; sourceTree = "<group>"; };
-		043D1FD421996C9C00AB925D /* ZFC_TableViewHeaderFooterView_XIB.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZFC_TableViewHeaderFooterView_XIB.xib; sourceTree = "<group>"; };
-		043D1FD521996C9C00AB925D /* ZFC_TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZFC_TestViewController.h; path = "../../未命名文件夹/ChainedDemo常见UI控件链式创建/ChainedDemo链式调用TableView和CollectionView/ZFC_TestViewController.h"; sourceTree = "<group>"; };
-		043D1FD721996C9C00AB925D /* ZFC_CollectionHeaderFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFC_CollectionHeaderFooterView.h; sourceTree = "<group>"; };
-		043D1FD821996C9C00AB925D /* ZFC_CollectionHeaderFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFC_CollectionHeaderFooterView.m; sourceTree = "<group>"; };
-		043D1FD921996C9C00AB925D /* ZFC_CollectionHeaderFooterView_XIB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFC_CollectionHeaderFooterView_XIB.h; sourceTree = "<group>"; };
-		043D1FDA21996C9C00AB925D /* ZFC_CollectionHeaderFooterView_XIB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFC_CollectionHeaderFooterView_XIB.m; sourceTree = "<group>"; };
-		043D1FDB21996C9C00AB925D /* ZFC_CollectionHeaderFooterView_XIB.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZFC_CollectionHeaderFooterView_XIB.xib; sourceTree = "<group>"; };
-		043D1FDC21996C9C00AB925D /* ZFC_CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFC_CollectionViewCell.h; sourceTree = "<group>"; };
-		043D1FDD21996C9C00AB925D /* ZFC_CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFC_CollectionViewCell.m; sourceTree = "<group>"; };
-		043D1FDE21996C9C00AB925D /* ZFC_CollectionViewCell_XIB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFC_CollectionViewCell_XIB.h; sourceTree = "<group>"; };
-		043D1FDF21996C9C00AB925D /* ZFC_CollectionViewCell_XIB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFC_CollectionViewCell_XIB.m; sourceTree = "<group>"; };
-		043D1FE021996C9C00AB925D /* ZFC_CollectionViewCell_XIB.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZFC_CollectionViewCell_XIB.xib; sourceTree = "<group>"; };
-		043D1FE121996C9C00AB925D /* ZFC_TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZFC_TestViewController.m; path = "../../未命名文件夹/ChainedDemo常见UI控件链式创建/ChainedDemo链式调用TableView和CollectionView/ZFC_TestViewController.m"; sourceTree = "<group>"; };
 		043D1FF021996CBB00AB925D /* ZFCTestRowModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFCTestRowModel.h; sourceTree = "<group>"; };
 		043D1FF121996CBB00AB925D /* ZFCTestRowModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFCTestRowModel.m; sourceTree = "<group>"; };
 		043D1FF221996CBB00AB925D /* ZFCTestSectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFCTestSectionModel.h; sourceTree = "<group>"; };
@@ -223,6 +201,28 @@
 		043D200821996CBB00AB925D /* ZFCThirdTableViewCell_XIB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFCThirdTableViewCell_XIB.m; sourceTree = "<group>"; };
 		043D200921996CBB00AB925D /* ZFCThirdTableViewCell_XIB.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZFCThirdTableViewCell_XIB.xib; sourceTree = "<group>"; };
 		043D200A21996CBB00AB925D /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		043EFE60219A5D54004548C1 /* ZFC_TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFC_TestViewController.m; sourceTree = "<group>"; };
+		043EFE69219A5DA1004548C1 /* ZFC_CollectionHeaderFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFC_CollectionHeaderFooterView.h; sourceTree = "<group>"; };
+		043EFE6A219A5DA1004548C1 /* ZFC_CollectionHeaderFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFC_CollectionHeaderFooterView.m; sourceTree = "<group>"; };
+		043EFE6B219A5DA1004548C1 /* ZFC_CollectionHeaderFooterView_XIB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFC_CollectionHeaderFooterView_XIB.h; sourceTree = "<group>"; };
+		043EFE6C219A5DA1004548C1 /* ZFC_CollectionHeaderFooterView_XIB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFC_CollectionHeaderFooterView_XIB.m; sourceTree = "<group>"; };
+		043EFE6D219A5DA1004548C1 /* ZFC_CollectionHeaderFooterView_XIB.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZFC_CollectionHeaderFooterView_XIB.xib; sourceTree = "<group>"; };
+		043EFE6E219A5DA1004548C1 /* ZFC_CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFC_CollectionViewCell.h; sourceTree = "<group>"; };
+		043EFE6F219A5DA1004548C1 /* ZFC_CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFC_CollectionViewCell.m; sourceTree = "<group>"; };
+		043EFE70219A5DA1004548C1 /* ZFC_CollectionViewCell_XIB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFC_CollectionViewCell_XIB.h; sourceTree = "<group>"; };
+		043EFE71219A5DA1004548C1 /* ZFC_CollectionViewCell_XIB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFC_CollectionViewCell_XIB.m; sourceTree = "<group>"; };
+		043EFE72219A5DA1004548C1 /* ZFC_CollectionViewCell_XIB.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZFC_CollectionViewCell_XIB.xib; sourceTree = "<group>"; };
+		043EFE74219A5DA1004548C1 /* ZFC_TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFC_TableViewCell.h; sourceTree = "<group>"; };
+		043EFE75219A5DA1004548C1 /* ZFC_TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFC_TableViewCell.m; sourceTree = "<group>"; };
+		043EFE76219A5DA1004548C1 /* ZFC_TableViewCell_XIB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFC_TableViewCell_XIB.h; sourceTree = "<group>"; };
+		043EFE77219A5DA1004548C1 /* ZFC_TableViewCell_XIB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFC_TableViewCell_XIB.m; sourceTree = "<group>"; };
+		043EFE78219A5DA1004548C1 /* ZFC_TableViewCell_XIB.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZFC_TableViewCell_XIB.xib; sourceTree = "<group>"; };
+		043EFE79219A5DA1004548C1 /* ZFC_TableViewHeaderFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFC_TableViewHeaderFooterView.h; sourceTree = "<group>"; };
+		043EFE7A219A5DA1004548C1 /* ZFC_TableViewHeaderFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFC_TableViewHeaderFooterView.m; sourceTree = "<group>"; };
+		043EFE7B219A5DA1004548C1 /* ZFC_TableViewHeaderFooterView_XIB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFC_TableViewHeaderFooterView_XIB.h; sourceTree = "<group>"; };
+		043EFE7C219A5DA1004548C1 /* ZFC_TableViewHeaderFooterView_XIB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFC_TableViewHeaderFooterView_XIB.m; sourceTree = "<group>"; };
+		043EFE7D219A5DA1004548C1 /* ZFC_TableViewHeaderFooterView_XIB.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZFC_TableViewHeaderFooterView_XIB.xib; sourceTree = "<group>"; };
+		043EFE8A219A5DD7004548C1 /* ZFC_TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFC_TestViewController.h; sourceTree = "<group>"; };
 		0CEAE11861491598D44FADF4 /* Pods-ChainedDemo复杂tableView的抽离.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChainedDemo复杂tableView的抽离.release.xcconfig"; path = "Target Support Files/Pods-ChainedDemo复杂tableView的抽离/Pods-ChainedDemo复杂tableView的抽离.release.xcconfig"; sourceTree = "<group>"; };
 		780959AE5519E51A6A4EC6B4 /* Pods-ChainedDemo链式调用TableView和CollectionView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChainedDemo链式调用TableView和CollectionView.debug.xcconfig"; path = "Target Support Files/Pods-ChainedDemo链式调用TableView和CollectionView/Pods-ChainedDemo链式调用TableView和CollectionView.debug.xcconfig"; sourceTree = "<group>"; };
 		788935BDAE1A01EF35DC99BB /* Pods-ChainedDemo链式调用TableView和CollectionView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChainedDemo链式调用TableView和CollectionView.release.xcconfig"; path = "Target Support Files/Pods-ChainedDemo链式调用TableView和CollectionView/Pods-ChainedDemo链式调用TableView和CollectionView.release.xcconfig"; sourceTree = "<group>"; };
@@ -378,10 +378,10 @@
 		043D1F5021996C4E00AB925D /* ChainedDemo链式调用TableView和CollectionView */ = {
 			isa = PBXGroup;
 			children = (
-				043D1FD621996C9C00AB925D /* TestCV */,
-				043D1FCA21996C9C00AB925D /* TestTV */,
-				043D1FD521996C9C00AB925D /* ZFC_TestViewController.h */,
-				043D1FE121996C9C00AB925D /* ZFC_TestViewController.m */,
+				043EFE68219A5DA1004548C1 /* TestCV */,
+				043EFE73219A5DA1004548C1 /* TestTV */,
+				043EFE8A219A5DD7004548C1 /* ZFC_TestViewController.h */,
+				043EFE60219A5D54004548C1 /* ZFC_TestViewController.m */,
 				043D1F5121996C4E00AB925D /* AppDelegate.h */,
 				043D1F5221996C4E00AB925D /* AppDelegate.m */,
 				043D1F5421996C4E00AB925D /* ViewController.h */,
@@ -475,42 +475,6 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		043D1FCA21996C9C00AB925D /* TestTV */ = {
-			isa = PBXGroup;
-			children = (
-				043D1FCB21996C9C00AB925D /* ZFC_TableViewCell.h */,
-				043D1FCC21996C9C00AB925D /* ZFC_TableViewCell.m */,
-				043D1FCD21996C9C00AB925D /* ZFC_TableViewCell_XIB.h */,
-				043D1FCE21996C9C00AB925D /* ZFC_TableViewCell_XIB.m */,
-				043D1FCF21996C9C00AB925D /* ZFC_TableViewCell_XIB.xib */,
-				043D1FD021996C9C00AB925D /* ZFC_TableViewHeaderFooterView.h */,
-				043D1FD121996C9C00AB925D /* ZFC_TableViewHeaderFooterView.m */,
-				043D1FD221996C9C00AB925D /* ZFC_TableViewHeaderFooterView_XIB.h */,
-				043D1FD321996C9C00AB925D /* ZFC_TableViewHeaderFooterView_XIB.m */,
-				043D1FD421996C9C00AB925D /* ZFC_TableViewHeaderFooterView_XIB.xib */,
-			);
-			name = TestTV;
-			path = "../../未命名文件夹/ChainedDemo常见UI控件链式创建/ChainedDemo链式调用TableView和CollectionView/TestTV";
-			sourceTree = "<group>";
-		};
-		043D1FD621996C9C00AB925D /* TestCV */ = {
-			isa = PBXGroup;
-			children = (
-				043D1FD721996C9C00AB925D /* ZFC_CollectionHeaderFooterView.h */,
-				043D1FD821996C9C00AB925D /* ZFC_CollectionHeaderFooterView.m */,
-				043D1FD921996C9C00AB925D /* ZFC_CollectionHeaderFooterView_XIB.h */,
-				043D1FDA21996C9C00AB925D /* ZFC_CollectionHeaderFooterView_XIB.m */,
-				043D1FDB21996C9C00AB925D /* ZFC_CollectionHeaderFooterView_XIB.xib */,
-				043D1FDC21996C9C00AB925D /* ZFC_CollectionViewCell.h */,
-				043D1FDD21996C9C00AB925D /* ZFC_CollectionViewCell.m */,
-				043D1FDE21996C9C00AB925D /* ZFC_CollectionViewCell_XIB.h */,
-				043D1FDF21996C9C00AB925D /* ZFC_CollectionViewCell_XIB.m */,
-				043D1FE021996C9C00AB925D /* ZFC_CollectionViewCell_XIB.xib */,
-			);
-			name = TestCV;
-			path = "../../未命名文件夹/ChainedDemo常见UI控件链式创建/ChainedDemo链式调用TableView和CollectionView/TestCV";
-			sourceTree = "<group>";
-		};
 		043D1FEF21996CBB00AB925D /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -549,6 +513,40 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		043EFE68219A5DA1004548C1 /* TestCV */ = {
+			isa = PBXGroup;
+			children = (
+				043EFE69219A5DA1004548C1 /* ZFC_CollectionHeaderFooterView.h */,
+				043EFE6A219A5DA1004548C1 /* ZFC_CollectionHeaderFooterView.m */,
+				043EFE6B219A5DA1004548C1 /* ZFC_CollectionHeaderFooterView_XIB.h */,
+				043EFE6C219A5DA1004548C1 /* ZFC_CollectionHeaderFooterView_XIB.m */,
+				043EFE6D219A5DA1004548C1 /* ZFC_CollectionHeaderFooterView_XIB.xib */,
+				043EFE6E219A5DA1004548C1 /* ZFC_CollectionViewCell.h */,
+				043EFE6F219A5DA1004548C1 /* ZFC_CollectionViewCell.m */,
+				043EFE70219A5DA1004548C1 /* ZFC_CollectionViewCell_XIB.h */,
+				043EFE71219A5DA1004548C1 /* ZFC_CollectionViewCell_XIB.m */,
+				043EFE72219A5DA1004548C1 /* ZFC_CollectionViewCell_XIB.xib */,
+			);
+			path = TestCV;
+			sourceTree = "<group>";
+		};
+		043EFE73219A5DA1004548C1 /* TestTV */ = {
+			isa = PBXGroup;
+			children = (
+				043EFE74219A5DA1004548C1 /* ZFC_TableViewCell.h */,
+				043EFE75219A5DA1004548C1 /* ZFC_TableViewCell.m */,
+				043EFE76219A5DA1004548C1 /* ZFC_TableViewCell_XIB.h */,
+				043EFE77219A5DA1004548C1 /* ZFC_TableViewCell_XIB.m */,
+				043EFE78219A5DA1004548C1 /* ZFC_TableViewCell_XIB.xib */,
+				043EFE79219A5DA1004548C1 /* ZFC_TableViewHeaderFooterView.h */,
+				043EFE7A219A5DA1004548C1 /* ZFC_TableViewHeaderFooterView.m */,
+				043EFE7B219A5DA1004548C1 /* ZFC_TableViewHeaderFooterView_XIB.h */,
+				043EFE7C219A5DA1004548C1 /* ZFC_TableViewHeaderFooterView_XIB.m */,
+				043EFE7D219A5DA1004548C1 /* ZFC_TableViewHeaderFooterView_XIB.xib */,
+			);
+			path = TestTV;
+			sourceTree = "<group>";
+		};
 		16E3E0F3D584D09CA7B68CA6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -559,7 +557,6 @@
 				780959AE5519E51A6A4EC6B4 /* Pods-ChainedDemo链式调用TableView和CollectionView.debug.xcconfig */,
 				788935BDAE1A01EF35DC99BB /* Pods-ChainedDemo链式调用TableView和CollectionView.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -838,13 +835,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				043D1FEA21996C9C00AB925D /* ZFC_CollectionHeaderFooterView_XIB.xib in Resources */,
+				043EFE89219A5DA1004548C1 /* ZFC_TableViewHeaderFooterView_XIB.xib in Resources */,
 				043D1F5E21996C4F00AB925D /* LaunchScreen.storyboard in Resources */,
-				043D1FE421996C9C00AB925D /* ZFC_TableViewCell_XIB.xib in Resources */,
 				043D1F5B21996C4F00AB925D /* Assets.xcassets in Resources */,
-				043D1FED21996C9C00AB925D /* ZFC_CollectionViewCell_XIB.xib in Resources */,
+				043EFE83219A5DA1004548C1 /* ZFC_CollectionViewCell_XIB.xib in Resources */,
+				043EFE86219A5DA1004548C1 /* ZFC_TableViewCell_XIB.xib in Resources */,
+				043EFE80219A5DA1004548C1 /* ZFC_CollectionHeaderFooterView_XIB.xib in Resources */,
 				043D1F5921996C4E00AB925D /* Main.storyboard in Resources */,
-				043D1FE721996C9C00AB925D /* ZFC_TableViewHeaderFooterView_XIB.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -997,18 +994,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				043D1FE821996C9C00AB925D /* ZFC_CollectionHeaderFooterView.m in Sources */,
-				043D1FE921996C9C00AB925D /* ZFC_CollectionHeaderFooterView_XIB.m in Sources */,
-				043D1FEB21996C9C00AB925D /* ZFC_CollectionViewCell.m in Sources */,
+				043EFE84219A5DA1004548C1 /* ZFC_TableViewCell.m in Sources */,
 				043D1F5621996C4E00AB925D /* ViewController.m in Sources */,
-				043D1FEE21996C9C00AB925D /* ZFC_TestViewController.m in Sources */,
+				043EFE81219A5DA1004548C1 /* ZFC_CollectionViewCell.m in Sources */,
+				043EFE82219A5DA1004548C1 /* ZFC_CollectionViewCell_XIB.m in Sources */,
 				043D1F6121996C4F00AB925D /* main.m in Sources */,
 				043D1F5321996C4E00AB925D /* AppDelegate.m in Sources */,
-				043D1FE221996C9C00AB925D /* ZFC_TableViewCell.m in Sources */,
-				043D1FE521996C9C00AB925D /* ZFC_TableViewHeaderFooterView.m in Sources */,
-				043D1FE321996C9C00AB925D /* ZFC_TableViewCell_XIB.m in Sources */,
-				043D1FE621996C9C00AB925D /* ZFC_TableViewHeaderFooterView_XIB.m in Sources */,
-				043D1FEC21996C9C00AB925D /* ZFC_CollectionViewCell_XIB.m in Sources */,
+				043EFE7E219A5DA1004548C1 /* ZFC_CollectionHeaderFooterView.m in Sources */,
+				043EFE7F219A5DA1004548C1 /* ZFC_CollectionHeaderFooterView_XIB.m in Sources */,
+				043EFE88219A5DA1004548C1 /* ZFC_TableViewHeaderFooterView_XIB.m in Sources */,
+				043EFE62219A5D54004548C1 /* ZFC_TestViewController.m in Sources */,
+				043EFE87219A5DA1004548C1 /* ZFC_TableViewHeaderFooterView.m in Sources */,
+				043EFE85219A5DA1004548C1 /* ZFC_TableViewCell_XIB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
